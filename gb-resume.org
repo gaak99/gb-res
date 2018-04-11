@@ -15,9 +15,8 @@ web technologies.
 * Computing Technologies
 ** Languages
 *** More experience
-**** Python
-***** https://github.com/gaak99/oxly
-***** see Seagate below
+**** Python (see also Seagate below)
+https://github.com/gaak99/oxly
 **** C
 ***** see Sun Micro below
 **** bash
