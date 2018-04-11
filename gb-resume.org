@@ -1,6 +1,6 @@
 #+TITLE: Glenn T Barry
 
-* URL of this resume: <>
+* URL of this resume: https://github.com/gaak99/gb-res/blob/master/gb-resume.org
 * Contact
 ** email: gaak99+resume@gmail.com
 ** ph: 415 336-7110

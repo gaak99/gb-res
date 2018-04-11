@@ -1,0 +1,6 @@
+#+TITLE: Resume repo of Glenn T Barry
+#+Created: apr18
+
+* Resume for Glenn T Barry aka gaak99
+
+Should (eventually) have a few formats such as plain text with markup (org) and plain text without markup (txt).
