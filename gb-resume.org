@@ -1,0 +1,89 @@
+#+TITLE: Glenn T Barry
+
+* URL of this resume: <>
+* Contact
+** email: gaak99+resume@gmail.com
+** ph: 415 336-7110
+* Address
+1021 Washington Heights Terrace
+Atlanta, GA 30314
+* Description
+I enjoy building computing systems and services based on my knowledge
+and experience in cloud storage, Unix network security/filesystems, and
+web technologies.
+* Computing Technologies
+** Languages
+*** More experience
+**** Python
+***** https://github.com/gaak99/oxly
+***** see Seagate below
+**** C
+***** see Sun Micro below
+**** bash
+**** Emacs Lisp
+***** https://github.com/gaak99/emacs-bloomfilter
+*** Less experience
+**** Rust
+***** (fixme remacs dired_rust branch)
+**** Clojure
+***** concurrent recursive grep using Clojure.core.async Go channels
+https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152
+** Operating systems
+*** Unix
+**** Ubuntu
+***** see Seagate below
+**** Solaris
+***** Joyent SmartOS
+***** Opensolaris
+***** (classic) Solaris
+****** see Sun Micro below
+****** see Emory below
+** Web frameworks
+** Cloud services
+*** Dropbox API
+**** side proj -- oxly -- https://github.com/gaak99/oxly
+*** FaunaDb API
+**** side proj -- Atl100 cli -- https://github.com/gaak99/atl100
+**** side proj -- Hylisp -- https://github.com/gaak99/faunadb-hylisp
+*** AWS S3 API
+**** see Seagate below
+*** Openstack Swift object storage API
+**** see Seagate below
+*** rsync.net
+**** ZFS as a svc
+* Experience
+** June 2013 - June 2015, Seagate/Evault
+I started with Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate.
+*** Software engineer, cloud storage R&D group.
+**** Major project
+***** LTS2.evault.com -  cheaper/faster-retreival (than AWS Glacier) long-term object storage
+The svc was based on Openstack Swift object storage code (Python).  Swift ran on a Ubuntu server cluster.
+****** I "owned" Swift S3 emulation module aka fixed many bugs
+****** Data center to data center object replication perf improvements
+****** Basic web services  w/Python Flask - passwd reset, etc.
+** Sep 2012 - Jan 2013, MeetMeTix.com.
+*** Contract programmer, Python/Django Web Apps.
+**** Major Projects:
+***** Integrated/tested/refined Django-Social-Auth app for Facebook
+      Single-sign-on feature.
+***** Developed (Python) from scratch a full Selenium automated test suite.
+** Oct 2001 - Jun 2012, Sun Micro (later sold to Oracle, Inc).
+*** Software engineer, Solaris OS/Net Security technologies.
+**** Recent Projects:
+***** Refined initial design of proposed Solaris Secure Boot feature
+      with an emphasis on next generation SPARC systems.
+***** Developed (C language) diagnosability improvements of Secure
+      (GSS/Kerberos) NFS/SMB features for Solaris.
+***** Led team and co-designed/developed (C language) RPC-based DB
+      replication protocol/feature for the Kerberos KDC. This code was
+      fed upstream and subsequently released by MIT Kerberos
+      Open Source Project.
+***** Re-wrote (C language) kernel RPC GSS server module to fix major
+      performance issues found while dogfooding building NFS server.
+** Oct 1996 - Oct 2001, Sun Micro.
+*** Software engineer, Solaris Sustaining OS/Net Name Services.
+**** Diagnosed/coded/tested fixes for (C language) escalated bugs.
+** June 1987 - Sep 1996, Emory University MathCS dept.
+Unix System Administrator.
+* Education
+June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
