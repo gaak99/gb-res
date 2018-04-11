@@ -1,12 +1,13 @@
 #+TITLE: Glenn T Barry
 
-* URL of this resume: https://github.com/gaak99/gb-res/blob/master/gb-resume.org
+* URL of this resume
+https://github.com/gaak99/gb-res/blob/master/gb-resume.org
 * Contact
 ** email: gaak99+resume@gmail.com
 ** ph: 415 336-7110
 * Address
-1021 Washington Heights Terrace
-Atlanta, GA 30314
+3047 Parkridge Drive, NE
+Atlanta, GA30319
 * Description
 I enjoy building computing systems and services based on my knowledge
 and experience in cloud storage, Unix network security/filesystems, and
