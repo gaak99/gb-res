@@ -1,4 +1,5 @@
 #+TITLE: Glenn T Barry
+#+CREATED: aprl18
 
 * URL of this resume
 https://github.com/gaak99/gb-res/blob/master/gb-resume.org
@@ -7,7 +8,7 @@ https://github.com/gaak99/gb-res/blob/master/gb-resume.org
 ** ph: 415 336-7110
 * Address
 3047 Parkridge Drive, NE
-Atlanta, GA30319
+Atlanta, GA 30319
 * Description
 I enjoy building computing systems and services based on my knowledge
 and experience in cloud storage, Unix network security/filesystems, and
@@ -17,16 +18,15 @@ web technologies.
 *** More experience
 **** Python (see also Seagate below)
 https://github.com/gaak99/oxly
-**** C
-***** see Sun Micro below
+**** C (see Sun Micro below)
 **** bash
 **** Emacs Lisp
-***** https://github.com/gaak99/emacs-bloomfilter
+https://github.com/gaak99/emacs-bloomfilter
 *** Less experience
 **** Rust
 ***** (fixme remacs dired_rust branch)
 **** Clojure
-***** concurrent recursive grep using Clojure.core.async Go channels
+***** Concurrent recursive grep using Clojure.core.async Go-style channels
 https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152
 ** Operating systems
 *** Unix
