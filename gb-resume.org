@@ -2,7 +2,7 @@
 #+CREATED: aprl18
 
 * URL of this resume
-https://github.com/gaak99/gb-res/blob/master/gb-resume.org
+https://github.com/gaak99/gb-res
 * Contact
 ** email: gaak99+resume@gmail.com
 ** github: https://github.com/gaak99
