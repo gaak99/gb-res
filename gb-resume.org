@@ -31,7 +31,7 @@ web technologies.
 **** Rust
 ***** Remacs open source project - port C layer of GNU Emacs to Rust
 ****** I ported/re-wrote several low level directory/file functions from C to Rust
-******* dired - 98%  (as of Aug '18) of the code in these files is my contribution
+******* dired - 98%  (as of Aug '18) of the code in this file is my contribution
 https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs
 **** Clojure
 ***** Concurrent recursive grep using Clojure.core.async Go-style channels
