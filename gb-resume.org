@@ -5,6 +5,7 @@
 https://github.com/gaak99/gb-res/blob/master/gb-resume.org
 * Contact
 ** email: gaak99+resume@gmail.com
+** github: https://github.com/gaak99
 ** ph: 415 336-7110
 * Address
 3047 Parkridge Drive, NE
@@ -16,27 +17,40 @@ web technologies.
 * Computing Technologies
 ** Languages
 *** More experience
-**** Python (see also Seagate below)
-https://github.com/gaak99/oxly
-**** C (see Sun Micro below)
+**** Python
+***** oxly auto-merges Dropbox file revisions with a git-like cli 
+****** https://github.com/gaak99/oxly
+***** see Seagate below
+**** C
+***** see Sun Micro below
 **** bash
 **** Emacs Lisp
-https://github.com/gaak99/emacs-bloomfilter
+*****  Basic bloom filter implementation in Emacs Lisp
+****** https://github.com/gaak99/emacs-bloomfilter
 *** Less experience
 **** Rust
-***** (fixme remacs dired_rust branch)
+***** Remacs open source project - port C layer of GNU Emacs to Rust
+****** I ported/re-wrote several low level directory/file functions from C to Rust
+******* dired - 98%  (as of Aug '18) of the code in these files is my contribution
+ https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired.rs
+ https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs
 **** Clojure
 ***** Concurrent recursive grep using Clojure.core.async Go-style channels
 https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152
 ** Operating systems
 *** Unix
-**** Ubuntu (see Seagate below)
-**** Solaris / OpenSolaris (see Sun Micro below)
+**** Ubuntu
+***** my dev laptop runs Ubuntu 16.04
+***** see Seagate below
+**** Solaris / OpenSolaris
+***** see Sun Micro below
 **** SmartOS
 Cloud optimized derivative of OpenSolaris from Joyent
 ** Web frameworks
-*** Flask (see Seagate below)
-*** Django (see MeetMeTix below)
+*** Flask
+**** see Seagate below
+*** Django
+**** see MeetMeTix below
 ** Cloud services
 *** Dropbox API
 **** side proj -- oxly -- https://github.com/gaak99/oxly
@@ -50,7 +64,7 @@ Cloud optimized derivative of OpenSolaris from Joyent
 *** rsync.net
 **** ZFS as a svc
 * Experience
-** June 2013 - June 2015, Seagate/Evault
+** June 2013 - June 2015, Seagate/Evault, San Francisco, CA.
 I started with Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate.
 *** Software engineer, cloud storage R&D group.
 **** Major project
@@ -59,13 +73,13 @@ The svc was based on Openstack Swift object storage code (Python).  Swift ran on
 ****** I "owned" Swift S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
 ****** Basic web services  w/Python Flask - passwd reset, etc.
-** Sep 2012 - Jan 2013, MeetMeTix.com.
+** Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
 *** Contract programmer, Python/Django Web Apps.
 **** Major Projects:
 ***** Integrated/tested/refined Django-Social-Auth app for Facebook
       Single-sign-on feature.
 ***** Developed (Python) from scratch a full Selenium automated test suite.
-** Oct 2001 - Jun 2012, Sun Micro (later sold to Oracle, Inc).
+** Oct 2001 - Jun 2012, Sun Micro (later sold to Oracle, Inc), Menlo Park, CA.
 *** Software engineer, Solaris OS/Net Security technologies.
 **** Recent Projects:
 ***** Refined initial design of proposed Solaris Secure Boot feature
@@ -81,7 +95,7 @@ The svc was based on Openstack Swift object storage code (Python).  Swift ran on
 ** Oct 1996 - Oct 2001, Sun Micro.
 *** Software engineer, Solaris Sustaining OS/Net Name Services.
 **** Diagnosed/coded/tested fixes for (C language) escalated bugs.
-** June 1987 - Sep 1996, Emory University MathCS dept.
+** June 1987 - Sep 1996, Emory University MathCS dept, Atlanta GA.
 Unix System Administrator.
 * Education
 June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
