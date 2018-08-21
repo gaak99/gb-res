@@ -20,10 +20,13 @@ web technologies.
 **** Python
 ***** _oxly_ auto-merges Dropbox file revisions with a git-like cli 
 ****** https://github.com/gaak99/oxly
+My largest and most complete side project.
+I use it a couple/few times a week to merge my misc org-mode notes file on my phone with my laptop.
 ***** see also Seagate below
 **** C
 ***** see Sun Micro below
 **** bash
+***** https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh
 **** Emacs Lisp
 *****  Basic bloom filter implementation in Emacs Lisp
 ****** https://github.com/gaak99/emacs-bloomfilter
@@ -53,7 +56,7 @@ Cloud optimized derivative of OpenSolaris from Joyent
 **** see MeetMeTix below
 ** Cloud services
 *** Dropbox API
-**** side projecct -- oxly -- https://github.com/gaak99/oxly
+**** side project -- oxly -- https://github.com/gaak99/oxly
 *** FaunaDb API
 **** side project -- Atl100 cli -- https://github.com/gaak99/atl100
 **** side project -- Hylisp -- https://github.com/gaak99/faunadb-hylisp
