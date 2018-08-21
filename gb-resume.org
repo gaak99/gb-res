@@ -20,7 +20,7 @@ web technologies.
 **** Python
 ***** _oxly_ auto-merges Dropbox file revisions with a git-like cli 
 ****** https://github.com/gaak99/oxly
-***** see Seagate below
+***** see also Seagate below
 **** C
 ***** see Sun Micro below
 **** bash
@@ -53,16 +53,21 @@ Cloud optimized derivative of OpenSolaris from Joyent
 **** see MeetMeTix below
 ** Cloud services
 *** Dropbox API
-**** side proj -- oxly -- https://github.com/gaak99/oxly
+**** side projecct -- oxly -- https://github.com/gaak99/oxly
 *** FaunaDb API
-**** side proj -- Atl100 cli -- https://github.com/gaak99/atl100
-**** side proj -- Hylisp -- https://github.com/gaak99/faunadb-hylisp
+**** side project -- Atl100 cli -- https://github.com/gaak99/atl100
+**** side project -- Hylisp -- https://github.com/gaak99/faunadb-hylisp
+Hy is a Lisp dialect embedded in Python.
+I believe I was the first to demo Hy for better looking code when using the FaunaDb functional-style Python API.
 *** AWS S3 API
 **** see Seagate below
 *** Openstack Swift object storage API
 **** see Seagate below
 *** rsync.net
 **** ZFS as a svc
+It's one of my favorite backup services as not only does it provide a
+familiar Unix file system interface (via sshfs) but also provides
+read-only snapshots.
 * Experience
 ** June 2013 - June 2015, Seagate/Evault, San Francisco, CA.
 I started with Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate.
