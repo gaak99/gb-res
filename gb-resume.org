@@ -40,9 +40,9 @@ https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs
 https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152
 ** Operating systems
 *** Unix
-**** Ubuntu
+**** Ubuntu Linux
 ***** my dev laptop runs Ubuntu 16.04
-***** see Seagate below
+***** see also Seagate below
 **** Solaris / OpenSolaris
 ***** see Sun Micro below
 **** SmartOS
