@@ -18,7 +18,7 @@ web technologies.
 ** Languages
 *** More experience
 **** Python
-***** oxly auto-merges Dropbox file revisions with a git-like cli 
+***** _oxly_ auto-merges Dropbox file revisions with a git-like cli 
 ****** https://github.com/gaak99/oxly
 ***** see Seagate below
 **** C
