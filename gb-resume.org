@@ -64,10 +64,10 @@ I believe I was the first to demo Hy for better looking code when using the Faun
 *** Openstack Swift object storage API
 **** see Seagate below
 *** rsync.net
-**** ZFS as a svc
+**** ZFS as a Service
 It's one of my favorite backup services as not only does it provide a
 familiar Unix file system interface (via sshfs) but also provides
-read-only snapshots.
+read-only snapshots several times a day.
 * Experience
 ** June 2013 - June 2015, Seagate/Evault, San Francisco, CA.
 I started with Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate.
