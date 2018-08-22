@@ -17,12 +17,12 @@ web technologies.
 *** More experience
 **** Python
 ***** /oxly/ auto-merges Dropbox file revisions with a git-like cli 
-The side project that I put the most time into and I use on a regular basis.
+The side project that I put the most time into and use on a regular basis.
 
 https://github.com/gaak99/oxly
 ***** see also Seagate below
 **** C
-***** see Sun Micro below
+***** see Sun Microsystens below
 **** bash
 https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh
 **** Emacs Lisp
@@ -43,7 +43,7 @@ https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152
 **** Ubuntu Linux
 My dev laptop runs Ubuntu 16.04. Also see Seagate below.
 **** Solaris / OpenSolaris
-See Sun Micro below.
+See Sun Microsystens below.
 **** SmartOS
 It's a cloud optimized derivative of OpenSolaris from Joyent.
 It has some unique features for cloud devops such as DTrace.
@@ -85,7 +85,7 @@ The svc was based on Openstack Swift object storage code (Python).  Swift ran on
 ***** Integrated/tested/refined Django-Social-Auth app for Facebook
       Single-sign-on feature.
 ***** Developed (Python) from scratch a full Selenium automated test suite.
-** Oct 2001 - Jun 2012, Sun Micro (later sold to Oracle, Inc), Menlo Park, CA.
+** Oct 2001 - Jun 2012, Sun Microsystens (later sold to Oracle, Inc), Menlo Park, CA.
 *** Software engineer, Solaris OS/Net Security technologies.
 **** Recent Projects:
 ***** Refined initial design of proposed Solaris Secure Boot feature
@@ -98,10 +98,10 @@ The svc was based on Openstack Swift object storage code (Python).  Swift ran on
       Open Source Project.
 ***** Re-wrote (C language) kernel RPC GSS server module to fix major
       performance issues found while dogfooding building NFS server.
-** Oct 1996 - Oct 2001, Sun Micro.
+** Oct 1996 - Oct 2001, Sun Microsystens.
 *** Software engineer, Solaris Sustaining OS/Net Name Services.
 **** Diagnosed/coded/tested fixes for (C language) escalated bugs.
-** June 1987 - Sep 1996, Emory University MathCS dept, Atlanta GA.
+** June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.
 Unix System Administrator.
 * Education
 June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
