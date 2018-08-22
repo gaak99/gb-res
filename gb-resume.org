@@ -18,8 +18,7 @@ web technologies.
 **** Python
 ***** _oxly_ auto-merges Dropbox file revisions with a git-like cli 
 ****** https://github.com/gaak99/oxly
-My largest and most complete side project.
-I use it a couple/few times a week to merge my misc org-mode notes file on my phone with my laptop.
+The side project that I put the most time into and I use on a regular basis.
 ***** see also Seagate below
 **** C
 ***** see Sun Micro below
