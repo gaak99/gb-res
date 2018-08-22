@@ -71,9 +71,9 @@ read-only snapshots several times a day.
 * Experience
 ** June 2013 - June 2015, Seagate/Evault, San Francisco, CA.
 I started with Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate.
-*** Software engineer, cloud storage R&D group.
+*** Software engineer, Cloud Storage R&D Group.
 **** Major project
-***** LTS2.evault.com -  cheaper/faster-retreival (than AWS Glacier) long-term object storage
+***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) long-term object storage
 The svc was based on Openstack Swift object storage code (Python).  Swift ran on a Ubuntu server cluster.
 ****** I "owned" Swift S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
