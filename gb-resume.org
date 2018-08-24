@@ -4,13 +4,13 @@
 * [[https://github.com/gaak99/gb-res][URL of this resume]]
 * Contact
 ** email: gaak99+resume@gmail.com
-** github: https://github.com/gaak99
 ** ph: 415 336-7110
 ** residence: Atlanta, GA 30319
 * Description
 I enjoy building computing systems and services based on my knowledge
 and experience in cloud storage, Unix network security/filesystems, and
 web technologies.
+* [[https://github.com/gaak99][Github]]                                                                  :l:
 * Computing Technologies
 ** Languages
 *** More experience
