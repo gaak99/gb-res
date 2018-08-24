@@ -10,8 +10,8 @@
 I enjoy building computing systems and services based on my knowledge
 and experience in cloud storage, Unix network security/filesystems, and
 web technologies.
-* [[https://github.com/gaak99][Github]]                                                                  :l:
 * Computing Technologies
+** [[https://github.com/gaak99][Github]]                                                                 :l:
 ** Languages
 *** More experience
 **** Python
@@ -19,7 +19,7 @@ web technologies.
 The side project that I put the most time into and use on a regular basis.
 ***** [[#seagate][see also Seagate below]]
 **** C
-***** see Sun Microsystems below
+***** see Sun Microsystems [[#sunmicro][below]]
 **** [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][bash(1)]]
 **** Emacs Lisp
 ***** [[https://github.com/gaak99/emacs-bloomfilter][Basic bloom filter implementation in Emacs Lisp]]
@@ -33,17 +33,17 @@ I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 ** Operating systems
 *** Unix
 **** Ubuntu Linux
-My dev laptop runs Ubuntu 16.04. Also see Seagate below.
+My dev laptop runs Ubuntu 16.04. Also see Seagate [[#seagate][below]].
 **** Solaris / OpenSolaris
-See Sun Microsystems below.
+See Sun Microsystems [[#sunmicro][below]].
 **** SmartOS
 It's a cloud optimized derivative of OpenSolaris from Joyent.
 It has some unique features for cloud devops such as DTrace.
 ** Web frameworks
 *** Flask
-**** see Seagate below
+**** see Seagate [[#seagate][below]]
 *** Django
-**** see MeetMeTix below
+**** see MeetMeTix [[#mmtix][below]]
 ** Cloud services
 *** Dropbox API
 **** side project -- oxly -- https://github.com/gaak99/oxly
@@ -53,9 +53,9 @@ It has some unique features for cloud devops such as DTrace.
 Hy is a Lisp dialect embedded in Python.
 I believe I was the first to demo Hy for better looking code when using the FaunaDb functional-style Python API.
 *** AWS S3 API
-**** see Seagate below
+**** see Seagate [[#seagate][below]]
 *** Openstack Swift object storage API
-**** see Seagate below
+**** see Seagate [[#seagate][below]]
 *** rsync.net
 **** ZFS as a Service
 It's one of my favorite backup services as not only does it provide a
@@ -75,13 +75,19 @@ The svc was based on Openstack Swift object storage code (Python).  Swift ran on
 ****** Data center to data center object replication perf improvements
 ****** Basic web services  w/Python Flask - passwd reset, etc.
 ** Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
+   :PROPERTIES:
+   :CUSTOM_ID: mmtix
+   :END:
 *** Contract programmer, Python/Django Web Apps.
 **** Major Projects:
 ***** Integrated/tested/refined Django-Social-Auth app for Facebook
       Single-sign-on feature.
 ***** Developed (Python) from scratch a full Selenium automated test suite.
 ** Oct 2001 - Jun 2012, Sun Microsystems (later sold to Oracle, Inc), Menlo Park, CA.
-*** Software engineer, Solaris OS/Net Security technologies.
+   :PROPERTIES:
+   :CUSTOM_ID: sunmicro
+   :END:
+*** Software engineer, Solaris OS/Net Security Technologies.
 **** Recent Projects:
 ***** Refined initial design of proposed Solaris Secure Boot feature
       with an emphasis on next generation SPARC systems.
