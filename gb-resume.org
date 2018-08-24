@@ -16,7 +16,7 @@ web technologies.
 ** Languages
 *** More experience
 **** Python
-***** [[https://github.com/gaak99/oxly][/oxly/ auto-merges Dropbox file revisions with a git-like cli]]
+***** [[https://github.com/gaak99/oxly][oxly auto-merges Dropbox file revisions with a git-like cli]]
 The side project that I put the most time into and use on a regular basis.
 ***** see also Seagate below
 **** C
