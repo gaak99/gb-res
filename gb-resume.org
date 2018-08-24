@@ -17,7 +17,7 @@ web technologies.
 **** Python
 ***** [[https://github.com/gaak99/oxly][oxly auto-merges Dropbox file revisions with a git-like cli]]
 The side project that I put the most time into and use on a regular basis.
-***** see also Seagate below
+***** [[#seagate][see also Seagate below]]
 **** C
 ***** see Sun Microsystems below
 **** [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][bash(1)]]
@@ -63,6 +63,9 @@ familiar Unix file system interface (via sshfs) but also provides
 read-only snapshots several times a day.
 * Experience
 ** June 2013 - June 2015, Seagate/Evault, San Francisco, CA.
+   :PROPERTIES:
+   :CUSTOM_ID: #seagate
+   :END:
 The team started with Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate for the new Cloud Storage division.
 *** Software engineer, Cloud Storage R&D Group.
 **** Major project
