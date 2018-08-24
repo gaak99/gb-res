@@ -30,7 +30,7 @@ https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh
 https://github.com/gaak99/emacs-bloomfilter
 *** Less experience
 **** Rust
-***** Remacs open source project - port C layer of GNU Emacs to Rust
+***** Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust
 I ported/re-wrote several low level directory/file functions from C to Rust.
 I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 
