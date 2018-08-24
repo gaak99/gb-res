@@ -16,12 +16,9 @@ web technologies.
 ** Languages
 *** More experience
 **** Python
-***** [[https://github.com/gaak99/oxly][link me maybe yo]]
+***** [[https://github.com/gaak99/oxly
+][/oxly/ auto-merges Dropbox file revisions with a git-like cli]]
 The side project that I put the most time into and use on a regular basis.
-***** /oxly/ auto-merges Dropbox file revisions with a git-like cli 
-The side project that I put the most time into and use on a regular basis.
-
-https://github.com/gaak99/oxly
 ***** see also Seagate below
 **** C
 ***** see Sun Microsystems below
