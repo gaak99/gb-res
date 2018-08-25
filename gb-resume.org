@@ -17,7 +17,7 @@ web technologies.
 **** Python
 ***** [[https://github.com/gaak99/oxly][oxly auto-merges Dropbox file revisions with a git-like cli]]
 The side project that I put the most time into and use on a regular basis.
-***** [[#seagate][see also Seagate below]]
+***** see also Seagate [[#seagate][below]]
 **** C
 ***** see Sun Microsystems [[#sunmicro][below]]
 **** [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][bash(1)]]
@@ -45,15 +45,15 @@ It has some unique features for cloud devops such as DTrace.
 *** Django
 **** see MeetMeTix [[#mmtix][below]]
 ** Cloud services
+*** AWS S3 API
+**** see Seagate [[#seagate][below]]
 *** Dropbox API
 **** side project -- oxly -- https://github.com/gaak99/oxly
-*** FaunaDb API
+*** FaunaDb[fn:1] API
 **** side project -- Atl100 cli -- https://github.com/gaak99/atl100
 **** side project -- Hylisp -- https://github.com/gaak99/faunadb-hylisp
 Hy is a Lisp dialect embedded in Python.
 I believe I was the first to demo Hy for better looking code when using the FaunaDb functional-style Python API.
-*** AWS S3 API
-**** see Seagate [[#seagate][below]]
 *** Openstack Swift object storage API
 **** see Seagate [[#seagate][below]]
 *** rsync.net
@@ -106,3 +106,14 @@ The svc was based on Openstack Swift object storage code (Python).  Swift ran on
 Unix System Administrator.
 * Education
 June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
+* Footnotes
+[fn:1] [[https://www.infoq.com/news/2017/03/faunadb][Infoq]]
+#+BEGIN_QUOTE
+FaunaDB is a transactional, temporal, geographically distributed,
+strongly consistent, secure, multi-tenant, QoS-managed operational
+database. It's implemented on the JVM for portability, and it's
+relational, but not SQL. Instead, it's queried via type-safe embedded
+DSLs, like LINQ. FaunaDB is a return to the general database purpose
+model, but built for the cloud instead of the mainframes of the 80s.
+#+END_QUOTE
+
