@@ -11,25 +11,26 @@ I enjoy building computing systems and services based on my knowledge
 and experience in cloud storage, Unix network security/filesystems, and
 web technologies.
 * Computing Technologies
-** [[https://github.com/gaak99][Github]]                                                                 :l:
+** [[https://github.com/gaak99][Github]]
 ** Languages
 *** More experience
 **** Python
-***** [[https://github.com/gaak99/oxly][oxly auto-merges Dropbox file revisions with a git-like cli]]
+***** /oxly/ auto-merges Dropbox file revisions with a git-like cli [[https://github.com/gaak99/oxly][github]]
 The side project that I put the most time into and use on a regular basis.
 ***** see also Seagate [[#seagate][below]]
 **** C
 ***** see Sun Microsystems [[#sunmicro][below]]
-**** [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][bash(1)]]
+**** bash(1)
+***** /oxmerge/ is a shell wrapper for /oxly/ for the common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
 **** Emacs Lisp
-***** [[https://github.com/gaak99/emacs-bloomfilter][Basic bloom filter implementation in Emacs Lisp]]
+***** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
 *** Less experience
 **** Rust
-***** [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust]]
-I ported/re-wrote several low level directory/file functions from C to Rust.
+***** Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][github]]
+I +ported+ re-wrote several low level directory/file functions from C to Rust.
 I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 **** Clojure
-***** [[https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152][Concurrent recursive grep using Clojure.core.async Go-style channels]]
+***** Concurrent recursive grep using Clojure.core.async Go-style channels [[https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152][github]]
 ** Operating systems
 *** Unix
 **** Ubuntu Linux
