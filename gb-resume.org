@@ -70,7 +70,7 @@ The team started with Evault -- a wholly-owned subsidiary of Seagate -- and last
 *** Software engineer, Cloud Storage R&D Group.
 **** Major project
 ***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) long-term object storage
-The svc was based on Openstack Swift object storage code (Python).  Swift ran on a Ubuntu server cluster.
+The svc was based on Openstack Swift[fn:2] object storage code (Python).  It ran on a Ubuntu server cluster.
 ****** I "owned" Swift S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
 ****** Basic web services  w/Python Flask - passwd reset, etc.
@@ -116,4 +116,11 @@ relational, but not SQL. Instead, it's queried via type-safe embedded
 DSLs, like LINQ. FaunaDB is a return to the general database purpose
 model, but built for the cloud instead of the mainframes of the 80s.
 #+END_QUOTE
-
+[fn:2] [[https://wiki.openstack.org/wiki/Swift][Openstack Wiki]]
+#+BEGIN_QUOTE
+The OpenStack Object Store project, known as Swift, offers cloud
+storage software so that you can store and retrieve lots of data with
+a simple API. It's built for scale and optimized for durability,
+availability, and concurrency across the entire data set. Swift is
+ideal for storing unstructured data that can grow without bound.
+#+END_QUOTE
