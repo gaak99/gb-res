@@ -7,8 +7,9 @@
 ** ph: 415 336-7110
 ** residence: Atlanta, GA 30319
 * Description
-I enjoy building computing systems and services based on my knowledge
-and experience in cloud storage, web services, and Unix network security/filesystems.
+I enjoy building computing systems based on my knowledge and
+experience in cloud storage, web services, and Unix network
+security/filesystems.
 * Computing Technologies
 ** [[https://github.com/gaak99][Github]]
 ** Languages
