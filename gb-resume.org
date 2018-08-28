@@ -25,7 +25,7 @@ The side project that I put the most time into and use on a regular basis.
 **** Emacs Lisp
 ***** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
 *** Less experience
-**** Rust
+**** Rust[fn:1]
 ***** Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][github]]
 I +ported+ re-wrote several low level directory/file functions from C to Rust.
 I contributed 98% (as of Aug '18) of the code in the dired Rust files.
@@ -49,7 +49,7 @@ This cloud optimized derivative of OpenSolaris has some unique features for clou
 **** see Seagate [[#seagate][below]]
 *** Dropbox API
 **** /Oxly/ side project [[https://github.com/gaak99/oxly][github]]
-*** FaunaDb[fn:1] API
+*** FaunaDb[fn:2] API
 **** /ATL100/ side project [[https://github.com/gaak99/atl100][github]]
 **** /HyLisp/ side project [[https://github.com/gaak99/faunadb-hylisp][github]]
 *** Openstack Swift object storage API
@@ -68,7 +68,7 @@ I was one of the first engineers hired to this project that started as a skunkwo
 *** Software engineer, Cloud Storage R&D Group.
 **** Major project
 ***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) long-term object storage
-The svc was based on Openstack Swift[fn:2] object storage code (Python).  It ran on a Ubuntu server cluster.
+The svc was based on Openstack Swift[fn:3] object storage code (Python).  It ran on a Ubuntu server cluster.
 ****** I "owned" Swift S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
 ****** Basic web services  w/Python Flask - passwd reset, etc.
@@ -105,7 +105,15 @@ Unix System Administrator.
 * Education
 June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
 * Footnotes
-[fn:1] [[https://www.infoq.com/news/2017/03/faunadb][Infoq]]
+[fn:1] [[https://en.wikipedia.org/wiki/Rust_(programming_language)][Wikipedia]]
+#+BEGIN_QUOTE
+Rust is a systems programming language sponsored by Mozilla which
+describes it as a "safe, concurrent, practical language", supporting
+functional and imperative-procedural paradigms. Rust is syntactically
+similar to C++[according to whom?], but its designers intend it to
+provide better memory safety while still maintaining performance.
+#+END_QUOTE
+[fn:2] [[https://www.infoq.com/news/2017/03/faunadb][Infoq]]
 #+BEGIN_QUOTE
 FaunaDB is a transactional, temporal, geographically distributed,
 strongly consistent, secure, multi-tenant, QoS-managed operational
@@ -114,7 +122,7 @@ relational, but not SQL. Instead, it's queried via type-safe embedded
 DSLs, like LINQ. FaunaDB is a return to the general database purpose
 model, but built for the cloud instead of the mainframes of the 80s.
 #+END_QUOTE
-[fn:2] [[https://wiki.openstack.org/wiki/Swift][Openstack Wiki]]
+[fn:3] [[https://wiki.openstack.org/wiki/Swift][Openstack Wiki]]
 #+BEGIN_QUOTE
 The OpenStack Object Store project, known as Swift, offers cloud
 storage software so that you can store and retrieve lots of data with
