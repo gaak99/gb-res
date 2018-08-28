@@ -8,20 +8,19 @@
 ** residence: Atlanta, GA 30319
 * Description
 I enjoy building computing systems and services based on my knowledge
-and experience in cloud storage, Unix network security/filesystems, and
-web technologies.
+and experience in cloud storage, web services, and Unix network security/filesystems.
 * Computing Technologies
 ** [[https://github.com/gaak99][Github]]
 ** Languages
 *** More experience
 **** Python
-***** /Oxly/ auto-merges Dropbox file revisions with a /git/-like cli [[https://github.com/gaak99/oxly][github]]
+***** /oxly/ auto-merges Dropbox file revisions with a /git/-like cli [[https://github.com/gaak99/oxly][github]]
 The side project that I put the most time into and use on a regular basis.
 ***** see also Seagate [[#seagate][below]]
 **** C
 ***** see Sun Microsystems [[#sunmicro][below]]
 **** bash(1)
-***** /Oxmerge/ is a shell wrapper for /Oxly/ for the common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
+***** /oxmerge/ is a shell wrapper for /oxly/ for the common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
 **** Emacs Lisp
 ***** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
 *** Less experience
@@ -48,10 +47,10 @@ This cloud optimized derivative of OpenSolaris has some unique features for clou
 *** AWS S3 API
 **** see Seagate [[#seagate][below]]
 *** Dropbox API
-**** /Oxly/ side project [[https://github.com/gaak99/oxly][github]]
+**** /oxly/ side project [[https://github.com/gaak99/oxly][github]]
 *** FaunaDb[fn:2] API
 **** /ATL100/ side project [[https://github.com/gaak99/atl100][github]]
-**** /HyLisp/ side project [[https://github.com/gaak99/faunadb-hylisp][github]]
+**** /hylisp/ side project [[https://github.com/gaak99/faunadb-hylisp][github]]
 *** Openstack Swift object storage API
 **** see Seagate [[#seagate][below]]
 *** rsync.net
