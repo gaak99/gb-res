@@ -5,11 +5,8 @@
 * Contact
 ** email: gaak99+resume@gmail.com
 ** ph: 415 336-7110
-** residence: Atlanta, GA 30319
 * Description
-I enjoy building computing systems based on my knowledge and
-experience in cloud storage, web services, and Unix network
-security/filesystems.
+Seeking a software development position in Atlanta (or remote) utilizing my skills and job experience detailed below.
 * Computing Technologies
 ** [[https://github.com/gaak99][Github]]
 ** Languages
