@@ -1,7 +1,8 @@
 #+TITLE: Resume of Glenn T. Barry
 #+CREATED: aprl18
 
-* [[https://github.com/gaak99/gb-res][URL]] of this Resume
+* [[https://gaak99.github.io/resume][URL]] of this Resume
+Other formats including plain text are [[https://github.com/gaak99/gb-res][here]].
 * Contact
 ** email: gaak99+resume@gmail.com
 ** ph: 415 336-7110
