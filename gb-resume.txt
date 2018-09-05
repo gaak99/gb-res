@@ -2,8 +2,11 @@ Resume of Glenn T. Barry
 ========================
 GT Barry
 
-https://github.com/gaak99/gb-res[URL] of this Resume
-----------------------------------------------------
+https://gaak99.github.io/resume[URL] of this Resume
+---------------------------------------------------
+
+Other formats including plain text are
+https://github.com/gaak99/gb-res[here].
 
 Contact
 -------
