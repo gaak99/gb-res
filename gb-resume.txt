@@ -1,0 +1,206 @@
+Resume of Glenn T. Barry
+========================
+GT Barry
+
+https://github.com/gaak99/gb-res[URL] of this Resume
+----------------------------------------------------
+
+Contact
+-------
+
+email: gaak99+resume@gmail.com
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ph: 415 336-7110
+~~~~~~~~~~~~~~~~
+
+Description
+-----------
+
+Seeking a software development position in Atlanta (or remote) utilizing
+my skills and job experience detailed below.
+
+Computing Technologies
+----------------------
+
+https://github.com/gaak99[Github]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Languages
+~~~~~~~~~
+
+More experience
+^^^^^^^^^^^^^^^
+
+1.  Python
+1.  _oxly_ auto-merges Dropbox file revisions with a _git_-like cli
+https://github.com/gaak99/oxly[github]
++
+The side project that I put the most time into and use on a regular
+basis.
+2.  see also Seagate link:#seagate[below]
+2.  C
+1.  see Sun Microsystems link:#sunmicro[below]
+3.  bash(1)
+1.  _oxmerge_ is a shell wrapper for _oxly_ for the common case
+https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh[github]
+4.  Emacs Lisp
+1.  Basic bloom filter implementation in Emacs Lisp
+https://github.com/gaak99/emacs-bloomfilter[github]
+
+Less experience
+^^^^^^^^^^^^^^^
+
+1.  Rust[multiblock footnote omitted]
+1.  Remacs open source project - "oxidize" (port) C layer of GNU Emacs
+to Rust
+https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs[github]
++
+I [line-through]*ported* re-wrote several low level directory/file
+functions from C to Rust. I contributed 98% (as of Aug '18) of the code
+in the dired Rust files.
+2.  Clojure
+1.  Concurrent recursive "grep" using Clojure.core.async Go-style
+channels
+https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152[github]
+
+Operating Systems
+~~~~~~~~~~~~~~~~~
+
+Unix
+^^^^
+
+1.  Ubuntu Linux
++
+My dev laptop runs Ubuntu 16.04. See also Seagate link:#seagate[below].
+2.  Solaris / OpenSolaris
++
+See Sun Microsystems link:#sunmicro[below].
+3.  SmartOS
++
+This cloud optimized derivative of OpenSolaris has some unique features
+for cloud devops such as DTrace.
+
+Web Frameworks
+~~~~~~~~~~~~~~
+
+Flask
+^^^^^
+
+1.  see Seagate link:#seagate[below]
+
+Django
+^^^^^^
+
+1.  see MeetMeTix link:#mmtix[below]
+
+Cloud Services
+~~~~~~~~~~~~~~
+
+AWS S3 API
+^^^^^^^^^^
+
+1.  see Seagate link:#seagate[below]
+
+Dropbox API
+^^^^^^^^^^^
+
+1.  _oxly_ side project https://github.com/gaak99/oxly[github]
+
+FaunaDb[multiblock footnote omitted] API
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.  _ATL100_ side project https://github.com/gaak99/atl100[github]
+2.  _hylisp_ side project
+https://github.com/gaak99/faunadb-hylisp[github]
+
+Openstack Swift object storage API
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.  see Seagate link:#seagate[below]
+
+rsync.net
+^^^^^^^^^
+
+1.  ZFS as a Service
++
+It's one of my favorite backup services as not only does it provide a
+familiar Unix file system interface (via sshfs) but also provides
+read-only snapshots several times a day.
+
+Job Experience
+--------------
+
+June 2013 - June 2015, Seagate/Evault, San Francisco, CA.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I was one of the first engineers hired to this project that started as a
+skunkworks within Evault – a wholly-owned subsidiary of Seagate – and
+last half of my tenure there we were brought into Seagate for the new
+Cloud Storage division.
+
+Software engineer, Cloud Storage R&D Group.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.  Major project
+1.  LTS2.evault.com - cheaper and faster retrieval (vs AWS Glacier)
+long-term object storage
++
+The svc was based on Openstack Swift[multiblock footnote omitted] object
+storage code (Python). It ran on a Ubuntu server cluster.
+1.  I "owned" Swift S3 emulation module aka fixed many bugs
+2.  Data center to data center object replication perf improvements
+3.  Basic web services w/Python Flask - passwd reset, etc.
+
+Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Contract programmer, Python/Django Web Apps.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.  Major Projects:
+1.  Integrated/tested/refined Django-Social-Auth app for Facebook
++
+Single-sign-on feature.
+2.  Developed (Python) from scratch a full Selenium automated test
+suite.
+
+Oct 2001 - Jun 2012, Sun Microsystems (later sold to Oracle, Inc), Menlo
+Park, CA.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Software engineer, Solaris OS/Net Security Technologies.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.  Recent Projects:
+1.  Refined initial design of proposed Solaris Secure Boot feature
++
+with an emphasis on next generation SPARC systems.
+2.  Developed (C language) diagnosability improvements of Secure
++
+(GSS/Kerberos) NFS/SMB features for Solaris.
+3.  Led team and co-designed/developed (C language) RPC-based DB
++
+replication protocol/feature for the Kerberos KDC. This code was fed
+upstream and subsequently released by MIT Kerberos Open Source Project.
+4.  Re-wrote (C language) kernel RPC GSS server module to fix major
++
+performance issues found while dogfooding building NFS server.
+
+Oct 1996 - Oct 2001, Sun Microsystems.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Software engineer, Solaris Sustaining OS/Net Name Services.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.  Diagnosed/coded/tested fixes for (C language) escalated bugs.
+
+June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Unix System Administrator.
+
+Education
+---------
+
+June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
