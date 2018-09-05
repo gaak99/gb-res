@@ -14,14 +14,26 @@ emacs25="/usr/local/bin/emacs"
 remacs="~/warez/remacs-final/remacs/src/remacs" # remacs much newer code base than 25.3
 emacs_opts_common="-Q --batch"
 cmd_org2html=remacs + " " + emacs_opts_common + " " + res_org_f + " --funcall org-html-export-to-html --kill"
+
 #git_add="git add " + res_base_f + ".html"
 #git_commit="git commit -m doit_auto_update " + res_base_f + ".html"
 #full_cmd_org2html=cmd_org2html + " && " + git_add + " && " + git_commit
 
+res_txt_f=res_dir + "/" + res_base_f + ".txt"
+export_txt_el="scripts/export-txt.el"
+cmd_org2txt=remacs + " " + emacs_opts_common + " " + "--script" + " " + export_txt_el + " --kill"
+
 print("gbdebug org2html: %s" % cmd_org2html)
+print("gbdebug org2txt: %s" % cmd_org2txt)
 
 def task_res_org2html():
     return {'actions': [cmd_org2html],
             'file_dep': [res_org_f],
             'targets': [res_html_f]
+            }
+
+def task_res_org2txt():
+    return {'actions': [cmd_org2txt],
+            'file_dep': [res_org_f],
+            'targets': [res_txt_f]
             }

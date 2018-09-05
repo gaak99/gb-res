@@ -14,4 +14,6 @@
   (load-library "ox-pandoc")
   (find-file myorgf)
   ;(org-pandoc-export-as-asciidoc)
-  (org-pandoc-export-to-asciidoc))
+  (org-pandoc-export-to-asciidoc)
+  (sleep-for 2); hack-alert - seems needed so far in batch mode
+  )
