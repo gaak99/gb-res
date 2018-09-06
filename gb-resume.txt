@@ -45,7 +45,7 @@ basis.
 2.  C
 1.  see Sun Microsystems link:#sunmicro[below]
 3.  bash(1)
-1.  _oxmerge_ is a shell wrapper for _oxly_ for the common case
+1.  _oxmerge_ is a shell wrapper for the _oxly_ common case
 https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh[github]
 4.  Lisp
 1.  Basic bloom filter implementation in Emacs Lisp
