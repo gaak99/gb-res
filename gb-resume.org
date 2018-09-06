@@ -19,7 +19,7 @@ The side project that I put the most time into and use on a regular basis.
 **** C
 ***** see Sun Microsystems [[#sunmicro][below]]
 **** bash(1)
-***** /oxmerge/ is a shell wrapper for /oxly/ for the common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
+***** /oxmerge/ is a shell wrapper for the /oxly/ common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
 **** Lisp
 ***** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
 *** Less experience
