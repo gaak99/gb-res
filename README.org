@@ -1,4 +1,12 @@
 #+TITLE: Resume repo of Glenn T Barry aka gaak99
 #+Created: apr18
 
-Should (eventually) have a few formats such as plain text with markup (org) and plain text without markup (txt).
+* [[https://gaak99.github.io/resume][Web site]]
+* Formats in this repo
+
+Plain text (.txt), /org-mode/ (.org), and html are in this repo.
+
+* How the formats are converted
+
+The org file is the "master" version and the /doit(1)/ (dodo.py) script converts it to html and txt versions.
+
