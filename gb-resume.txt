@@ -154,7 +154,7 @@ storage code (Python). It ran on a Ubuntu server cluster.
 1.  I "owned" Swift S3 emulation module aka fixed many bugs
 2.  Data center to data center object replication perf improvements
 3.  Basic web services w/Python Flask - passwd reset, etc.
-4.  Agile methodology was used for all the projects
+4.  Agile methodology and JIRA/Confluence was used for all the projects
 
 Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -169,27 +169,26 @@ Single-sign-on feature.
 2.  Developed (Python) from scratch a full Selenium automated test
 suite.
 
-Oct 2001 - Jun 2012, Sun Microsystems (later sold to Oracle, Inc), Menlo
-Park, CA.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Oct 2001 - Jun 2012, Sun Microsystems (later acquired by Oracle, Inc),
+Menlo Park, CA.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Software engineer, Solaris OS/Net Security Technologies.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.  Recent Projects:
-1.  Refined initial design of proposed Solaris Secure Boot feature
+1.  Last few projects:
+1.  Solaris Secure Boot feature
 +
-with an emphasis on next generation SPARC systems.
-2.  Developed (C language) diagnosability improvements of Secure
+Refined initial design with an emphasis on next generation SPARC
+systems.
+2.  Diagnosability improvements of Solaris Secure NFS/SMB (C
+development)
+3.  Kerberos KDC server db replication
 +
-(GSS/Kerberos) NFS/SMB features for Solaris.
-3.  Led team and co-designed/developed (C language) RPC-based DB
-+
+I led team and co-designed/developed (C language) RPC-based DB
 replication protocol/feature for the Kerberos KDC. This code was fed
 upstream and subsequently released by MIT Kerberos Open Source Project.
-4.  Re-wrote (C language) kernel RPC GSS server module to fix major
-+
-performance issues found while dogfooding building NFS server.
+4.  Solaris kernel RPC GSS modules server performance improvements
 
 Oct 1996 - Oct 2001, Sun Microsystems.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
