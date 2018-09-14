@@ -93,13 +93,11 @@ Integrated/tested/refined Django-Social-Auth app for Facebook single sign-on fea
 ***** Solaris secure boot feature
 Refined initial design with an emphasis on next generation SPARC systems.
 ***** Diagnosability improvements of Solaris Secure NFS/SMB (C development)
-***** Kerberos KDC server db replication
-I led team and co-designed/developed (C language) RPC-based DB
-replication protocol/feature for the Kerberos KDC. This code was
-fed upstream and subsequently released by MIT Kerberos Open
-Source Project.
-***** Solaris kernel RPC GSS modules server performance improvements
-***** Solaris single sign-on via GSS/Kerberos
+***** Kerberos KDC server db replication  (C development)
+I led team and co-designed/developed RPC-based DB
+replication protocol/feature for the Kerberos KDC.
+***** Solaris kernel RPC GSS modules server performance improvements  (C development)
+***** Solaris single sign-on via GSS/Kerberos (C development)
 ** Oct 1996 - Oct 2001, Sun Microsystems.
 *** Software engineer, Solaris Sustaining OS/Net Name Services.
 **** Diagnosed/coded/tested fixes for (C language) escalated bugs.
