@@ -81,8 +81,8 @@ The svc was based on Openstack Swift[fn:3] object storage code (Python).  It ran
    :END:
 *** Contract programmer, Python/Django Web Apps.
 **** Major Projects:
-***** Integrated/tested/refined Django-Social-Auth app for Facebook
-      Single-sign-on feature.
+***** Single sign-on for the site
+Integrated/tested/refined Django-Social-Auth app for Facebook single sign-on feature.
 ***** Developed (Python) from scratch a full Selenium automated test suite.
 ** Oct 2001 - Jun 2012, Sun Microsystems (later acquired by Oracle, Inc), Menlo Park, CA.
    :PROPERTIES:
