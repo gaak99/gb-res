@@ -17,7 +17,7 @@ Seeking a software development position in Atlanta (or remote) utilizing my skil
 The side project that I put the most time into and use on a regular
 basis. Also good use of Python object oriented features and decorators
 (I wrote /_dbxauth/ in core.py, and the /Click/ library API used here
-is heavily based on them).
+is heavily based on them, see oxly/scripts/clickit.py).
 ***** see also Seagate [[#seagate][below]]
 **** C
 ***** see Sun Microsystems [[#sunmicro][below]]
