@@ -86,7 +86,7 @@ The svc was based on Openstack Swift[fn:3] object storage code (Python).  It ran
    :END:
 *** Software engineer, Solaris OS/Net Security Technologies.
 **** Last few projects:
-***** Solaris Secure Boot feature
+***** Solaris secure boot feature
 Refined initial design with an emphasis on next generation SPARC systems.
 ***** Diagnosability improvements of Solaris Secure NFS/SMB (C development)
 ***** Kerberos KDC server db replication
@@ -95,6 +95,7 @@ replication protocol/feature for the Kerberos KDC. This code was
 fed upstream and subsequently released by MIT Kerberos Open
 Source Project.
 ***** Solaris kernel RPC GSS modules server performance improvements
+***** Solaris single sign-on via GSS/Kerberos
 ** Oct 1996 - Oct 2001, Sun Microsystems.
 *** Software engineer, Solaris Sustaining OS/Net Name Services.
 **** Diagnosed/coded/tested fixes for (C language) escalated bugs.
