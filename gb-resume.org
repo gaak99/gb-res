@@ -25,6 +25,7 @@ is heavily based on them).
 ***** /oxmerge/ is a shell wrapper for the /oxly/ common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
 **** Lisp
 ***** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
+Pretty good use of the [[https://github.com/magnars/dash.el][dash]] uber modern/functional Lisp list library.
 *** Less experience
 **** Rust[fn:1]
 ***** Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][github]]
