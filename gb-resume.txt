@@ -40,7 +40,9 @@ More experience
 https://github.com/gaak99/oxly[github]
 +
 The side project that I put the most time into and use on a regular
-basis.
+basis. Also good use of Python object oriented features and decorators
+(I wrote _~dbxauth~_ in core.py, and the _Click_ library API used here
+is heavily based on them).
 2.  see also Seagate link:#seagate[below]
 2.  C
 1.  see Sun Microsystems link:#sunmicro[below]
@@ -50,6 +52,9 @@ https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh[github]
 4.  Lisp
 1.  Basic bloom filter implementation in Emacs Lisp
 https://github.com/gaak99/emacs-bloomfilter[github]
++
+Pretty good use of the https://github.com/magnars/dash.el[dash] uber
+modern/functional Lisp list library.
 
 Less experience
 ^^^^^^^^^^^^^^^
@@ -163,9 +168,10 @@ Contract programmer, Python/Django Web Apps.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1.  Major Projects:
-1.  Integrated/tested/refined Django-Social-Auth app for Facebook
+1.  Single sign-on for the site
 +
-Single-sign-on feature.
+Integrated/tested/refined Django-Social-Auth app for Facebook single
+sign-on feature.
 2.  Developed (Python) from scratch a full Selenium automated test
 suite.
 
@@ -177,18 +183,19 @@ Software engineer, Solaris OS/Net Security Technologies.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1.  Last few projects:
-1.  Solaris Secure Boot feature
+1.  Solaris secure boot feature
 +
 Refined initial design with an emphasis on next generation SPARC
 systems.
 2.  Diagnosability improvements of Solaris Secure NFS/SMB (C
 development)
-3.  Kerberos KDC server db replication
+3.  Kerberos KDC server db replication (C development)
 +
-I led team and co-designed/developed (C language) RPC-based DB
-replication protocol/feature for the Kerberos KDC. This code was fed
-upstream and subsequently released by MIT Kerberos Open Source Project.
-4.  Solaris kernel RPC GSS modules server performance improvements
+I led team and co-designed/developed RPC-based DB replication
+protocol/feature for the Kerberos KDC.
+4.  Solaris kernel RPC GSS modules server performance improvements (C
+development)
+5.  Solaris single sign-on via GSS/Kerberos (C development)
 
 Oct 1996 - Oct 2001, Sun Microsystems.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
