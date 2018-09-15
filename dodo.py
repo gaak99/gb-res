@@ -37,3 +37,14 @@ def task_res_org2txt():
             'file_dep': [res_org_f],
             'targets': [res_txt_f]
             }
+
+io_dir='../gaak99.github.io/resume/'
+io_f=io_dir + 'index.html'
+cmd_io_update='cp ' + res_html_f + ' ' + io_f
+print("gbdebug cmd_io_update: %s" % cmd_io_update)
+
+def task_res_io_update():
+    return {'actions': [cmd_io_update],
+            'file_dep': [res_html_f],
+            'targets': [io_f]
+            }
