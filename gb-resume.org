@@ -35,7 +35,7 @@ I +ported+ re-wrote several low level directory/file functions from C to Rust.
 
 I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 
-I used some functional style Rust features/libraries here in [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][dired_unix.rs]].
+I used some functional style Rust features/libraries here in [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][dired unix.rs]].
 **** Clojure
 ***** Concurrent recursive "grep" using Clojure.core.async Go-style channels [[https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152][github]]
 ** Operating Systems
