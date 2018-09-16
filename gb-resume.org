@@ -79,7 +79,7 @@ The svc was based on Openstack Swift[fn:3] object storage code (Python).  It ran
 ****** I "owned" Swift S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
 ****** Basic web services  w/Python Flask - passwd reset, etc.
-****** Agile methodology and JIRA/Confluence was used for all the projects
+****** Agile methodology and JIRA/Confluence/Stash was used for all the projects
 ** Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
    :PROPERTIES:
    :CUSTOM_ID: mmtix
