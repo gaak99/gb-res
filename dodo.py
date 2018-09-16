@@ -15,9 +15,11 @@ remacs="~/warez/remacs-final/remacs/src/remacs" # remacs much newer code base th
 emacs_opts_common="-Q --batch"
 cmd_org2html=remacs + " " + emacs_opts_common + " " + res_org_f + " --funcall org-html-export-to-html --kill"
 
+git_push='git push origin master'
+
 git_add_html="git add " + res_base_f + ".html"
 git_commit_html="git commit -m doit_auto_update " + res_base_f + ".html"
-full_cmd_org2html=cmd_org2html + " && " + git_add_html + " && " + git_commit_html
+full_cmd_org2html=cmd_org2html + " && " + git_add_html + " && " + git_commit_html  + '&&' + git_push
 
 res_txt_f=res_dir + "/" + res_base_f + ".txt"
 export_txt_el="scripts/export-txt.el"
@@ -25,7 +27,7 @@ cmd_org2txt=remacs + " " + emacs_opts_common + " " + "--script" + " " + export_t
 
 git_add_txt="git add " + res_base_f + ".txt"
 git_commit_txt="git commit -m doit_auto_update " + res_base_f + ".txt"
-full_cmd_org2txt=cmd_org2txt + " && " + git_add_txt + " && " + git_commit_txt
+full_cmd_org2txt=cmd_org2txt + " && " + git_add_txt + " && " + git_commit_txt + '&&' + git_push
 
 #print("gbdebug org2html: %s" % cmd_org2html)
 print("gbdebug full org2html: %s" % full_cmd_org2html)
@@ -52,7 +54,7 @@ cmd_io_update='cp ' + res_html_f + ' ' + io_f
 
 git_add_io='git add ' + io_base_f
 git_commit_io='git commit -m doit_auto_update ' + io_base_f
-full_cmd_io_update=cmd_io_update + '&&' + 'cd ' + io_dir + '&&' + git_add_io + '&&' + git_commit_io
+full_cmd_io_update=cmd_io_update + '&&' + 'cd ' + io_dir + '&&' + git_add_io + '&&' + git_commit_io  + '&&' + git_push
 print("gbdebug full cmd_io_update: %s" % full_cmd_io_update)
 
 def task_res_io_update():
