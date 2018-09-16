@@ -15,36 +15,48 @@ remacs="~/warez/remacs-final/remacs/src/remacs" # remacs much newer code base th
 emacs_opts_common="-Q --batch"
 cmd_org2html=remacs + " " + emacs_opts_common + " " + res_org_f + " --funcall org-html-export-to-html --kill"
 
-#git_add="git add " + res_base_f + ".html"
-#git_commit="git commit -m doit_auto_update " + res_base_f + ".html"
-#full_cmd_org2html=cmd_org2html + " && " + git_add + " && " + git_commit
+git_add_html="git add " + res_base_f + ".html"
+git_commit_html="git commit -m doit_auto_update " + res_base_f + ".html"
+full_cmd_org2html=cmd_org2html + " && " + git_add_html + " && " + git_commit_html
 
 res_txt_f=res_dir + "/" + res_base_f + ".txt"
 export_txt_el="scripts/export-txt.el"
 cmd_org2txt=remacs + " " + emacs_opts_common + " " + "--script" + " " + export_txt_el + " --kill"
 
-print("gbdebug org2html: %s" % cmd_org2html)
-print("gbdebug org2txt: %s" % cmd_org2txt)
+git_add_txt="git add " + res_base_f + ".txt"
+git_commit_txt="git commit -m doit_auto_update " + res_base_f + ".txt"
+full_cmd_org2txt=cmd_org2txt + " && " + git_add_txt + " && " + git_commit_txt
+
+#print("gbdebug org2html: %s" % cmd_org2html)
+print("gbdebug full org2html: %s" % full_cmd_org2html)
+#print("gbdebug org2txt: %s" % cmd_org2txt)
+print("gbdebug full org2txt: %s" % full_cmd_org2txt)
 
 def task_res_org2html():
-    return {'actions': [cmd_org2html],
+    return {'actions': [full_cmd_org2html],
             'file_dep': [res_org_f],
             'targets': [res_html_f]
             }
 
 def task_res_org2txt():
-    return {'actions': [cmd_org2txt],
+    return {'actions': [full_cmd_org2txt],
             'file_dep': [res_org_f],
             'targets': [res_txt_f]
             }
 
+io_base_f='index.html'
 io_dir='../gaak99.github.io/resume/'
-io_f=io_dir + 'index.html'
+io_f=io_dir + io_base_f
 cmd_io_update='cp ' + res_html_f + ' ' + io_f
-print("gbdebug cmd_io_update: %s" % cmd_io_update)
+#print("gbdebug cmd_io_update: %s" % cmd_io_update)
+
+git_add_io='git add ' + io_base_f
+git_commit_io='git commit -m doit_auto_update ' + io_base_f
+full_cmd_io_update=cmd_io_update + '&&' + 'cd ' + io_dir + '&&' + git_add_io + '&&' + git_commit_io
+print("gbdebug full cmd_io_update: %s" % full_cmd_io_update)
 
 def task_res_io_update():
-    return {'actions': [cmd_io_update],
+    return {'actions': [full_cmd_io_update],
             'file_dep': [res_html_f],
             'targets': [io_f]
             }
