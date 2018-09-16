@@ -17,8 +17,8 @@ cmd_org2html=remacs + " " + emacs_opts_common + " " + res_org_f + " --funcall or
 
 git_push='git push origin master'
 
-git_add_html="git add " + res_base_f + ".html"
-git_commit_html="git commit -m doit_auto_update " + res_base_f + ".html"
+git_add_html="git add " + res_base_f + ".html" + ' ' + res_base_f + '.org'
+git_commit_html="git commit -m doit_auto_update " + res_base_f + ".html" + ' ' + res_base_f + '.org'
 full_cmd_org2html=cmd_org2html + " && " + git_add_html + " && " + git_commit_html  + '&&' + git_push
 
 res_txt_f=res_dir + "/" + res_base_f + ".txt"
