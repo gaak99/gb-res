@@ -40,10 +40,10 @@ More experience
 https://github.com/gaak99/oxly[github]
 +
 The side project that I put the most time into and use on a regular
-basis. Also makes pretty darn good use of Python object oriented
-features and decorators. I wrote the _~dbxauth~_ decorator in core.py
-and the excellent _Click_ library API used here is heavily based on them
-(see oxly/scripts/clickit.py).
+basis. Also makes pretty good use of Python object oriented features and
+decorators. I wrote the _~dbxauth~_ decorator in core.py and the
+excellent _Click_ library API used here is heavily based on them (see
+oxly/scripts/clickit.py).
 2.  see also Seagate link:#seagate[below]
 2.  C
 1.  see Sun Microsystems link:#sunmicro[below]
