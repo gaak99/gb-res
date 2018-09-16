@@ -105,7 +105,7 @@ replication protocol/feature for the Kerberos KDC.
 ***** Solaris single sign-on via GSS/Kerberos (C development)
 ** Oct 1996 - Oct 2001, Sun Microsystems.
 *** Software engineer, Solaris Sustaining OS/Net Name Services.
-**** Diagnosed/coded/tested fixes for (C language) escalated bugs.
+**** Diagnosed/coded/tested fixes (C language) for escalated bugs.
 ** June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.
 Unix System Administrator.
 * Education
