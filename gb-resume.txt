@@ -214,7 +214,7 @@ Oct 1996 - Oct 2001, Sun Microsystems.
 Software engineer, Solaris Sustaining OS/Net Name Services.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.  Diagnosed/coded/tested fixes for (C language) escalated bugs.
+1.  Diagnosed/coded/tested fixes (C language) for escalated bugs.
 
 June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
