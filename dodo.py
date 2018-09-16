@@ -20,6 +20,7 @@ git_push='git push origin master'
 git_add_html="git add " + res_base_f + ".html" + ' ' + res_base_f + '.org'
 git_commit_html="git commit -m doit_auto_update " + res_base_f + ".html" + ' ' + res_base_f + '.org'
 full_cmd_org2html=cmd_org2html + " && " + git_add_html + " && " + git_commit_html  + '&&' + git_push
+print("gbdebug_full_org2html: %s" % full_cmd_org2html)
 
 res_txt_f=res_dir + "/" + res_base_f + ".txt"
 export_txt_el="scripts/export-txt.el"
@@ -28,11 +29,7 @@ cmd_org2txt=remacs + " " + emacs_opts_common + " " + "--script" + " " + export_t
 git_add_txt="git add " + res_base_f + ".txt"
 git_commit_txt="git commit -m doit_auto_update " + res_base_f + ".txt"
 full_cmd_org2txt=cmd_org2txt + " && " + git_add_txt + " && " + git_commit_txt + '&&' + git_push
-
-#print("gbdebug org2html: %s" % cmd_org2html)
-print("gbdebug full org2html: %s" % full_cmd_org2html)
-#print("gbdebug org2txt: %s" % cmd_org2txt)
-print("gbdebug full org2txt: %s" % full_cmd_org2txt)
+print("gbdebug_full_org2txt: %s" % full_cmd_org2txt)
 
 def task_res_org2html():
     return {'actions': [full_cmd_org2html],
@@ -50,12 +47,11 @@ io_base_f='index.html'
 io_dir='../gaak99.github.io/resume/'
 io_f=io_dir + io_base_f
 cmd_io_update='cp ' + res_html_f + ' ' + io_f
-#print("gbdebug cmd_io_update: %s" % cmd_io_update)
 
 git_add_io='git add ' + io_base_f
 git_commit_io='git commit -m doit_auto_update ' + io_base_f
 full_cmd_io_update=cmd_io_update + '&&' + 'cd ' + io_dir + '&&' + git_add_io + '&&' + git_commit_io  + '&&' + git_push
-print("gbdebug full cmd_io_update: %s" % full_cmd_io_update)
+print("gbdebug_full_cmd_io_update: %s" % full_cmd_io_update)
 
 def task_res_io_update():
     return {'actions': [full_cmd_io_update],
