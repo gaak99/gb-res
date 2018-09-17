@@ -3,10 +3,11 @@
 
 * Description
 Seeking a software development position in Atlanta (or remote) utilizing my skills and job experience detailed below.
+* URLs for this Resume
+** Web site: https://gaak99.github.io/resume
+** Raw formats including plain text: https://github.com/gaak99/gb-res
 * Contact
 ** email: gaak99@gmail.com
-* [[https://gaak99.github.io/resume][URL]] of this Resume
-Other formats including plain text are [[https://github.com/gaak99/gb-res][here]].
 * Computing Technologies
 ** [[https://github.com/gaak99][Github]]
 ** Languages
