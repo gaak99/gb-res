@@ -1,13 +1,13 @@
 #+TITLE: Resume of Glenn T. Barry
 #+CREATED: aprl18
 
-* [[https://gaak99.github.io/resume][URL]] of this Resume
-Other formats including plain text are [[https://github.com/gaak99/gb-res][here]].
+* Description
+Seeking a software development position in Atlanta (or remote) utilizing my skills and job experience detailed below.
 * Contact
 ** email: gaak99+resume@gmail.com
 ** ph: 415 336-7110
-* Description
-Seeking a software development position in Atlanta (or remote) utilizing my skills and job experience detailed below.
+* [[https://gaak99.github.io/resume][URL]] of this Resume
+Other formats including plain text are [[https://github.com/gaak99/gb-res][here]].
 * Computing Technologies
 ** [[https://github.com/gaak99][Github]]
 ** Languages
