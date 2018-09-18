@@ -163,10 +163,10 @@ Software engineer, Cloud Storage R&D Group.
 
 1.  Major project
 1.  LTS2.evault.com - cheaper and faster retrieval (vs AWS Glacier) of
-long-term object storage service
+long-term object storage
 +
 The service was based on Openstack Swift[multiblock footnote omitted]
-object storage open source project..
+object storage open source project.
 +
 Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and
 a second one in Oklahoma City).
