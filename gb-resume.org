@@ -75,8 +75,13 @@ read-only snapshots several times a day.
 I was one of the first engineers hired to this project that started as a skunkworks within Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate for the new Cloud Storage division.
 *** Software engineer, Cloud Storage R&D Group.
 **** Major project
-***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) long-term object storage
-The svc was based on Openstack Swift[fn:3] object storage code (Python).  It ran on a Ubuntu server cluster.
+***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) of long-term object storage service
+The service was based on Openstack Swift[fn:3] object storage code (Python).
+
+Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and a second one in Oklahoma City).
+
+Swift is open source and thousands of lines of Python 2 and is heavily object oriented.
+And the code tends to be of high quality as it has many eyes of Pythen experts for code review.
 ****** I "owned" Swift S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
 ****** Basic web services  w/Python Flask - passwd reset, etc.
