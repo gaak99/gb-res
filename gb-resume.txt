@@ -69,9 +69,9 @@ functions from C to Rust.
 +
 I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 +
-I used some functional style Rust features/libraries here in
+I used some functional style Rust features here in
 https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs[dired
-unix.rs].
+unix.rs] (see _fattrs~tolist~_).
 2.  Lisp
 1.  Clojure
 1.  Concurrent recursive "grep" using _Clojure.core.async_ Go-style
@@ -80,7 +80,7 @@ https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152[github]
 2.  Basic bloom filter implementation in Emacs Lisp
 https://github.com/gaak99/emacs-bloomfilter[github]
 +
-Pretty good use of the https://github.com/magnars/dash.el[dash] uber
+I used the https://github.com/magnars/dash.el[dash] uber
 modern/functional Lisp list library.
 
 Operating Systems
