@@ -166,14 +166,14 @@ Software engineer, Cloud Storage R&D Group.
 long-term object storage service
 +
 The service was based on Openstack Swift[multiblock footnote omitted]
-object storage code (Python).
+object storage open source project..
 +
 Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and
 a second one in Oklahoma City).
 +
-Swift is open source and thousands of lines of Python 2 and is heavily
-object oriented. And the code tends to be of high quality as it has many
-eyes of Pythen experts for code review.
+Swift is many thousands of lines of Python 2 and is heavily object
+oriented. And the code tends to be of high quality as it has many eyes
+of Python experts for code review.
 1.  I "owned" Swift S3 emulation module aka fixed many bugs
 2.  Data center to data center object replication perf improvements
 3.  Basic web services w/Python Flask - passwd reset, etc.
