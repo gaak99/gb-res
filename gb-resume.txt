@@ -71,7 +71,7 @@ I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 +
 I used some functional style Rust features here in
 https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs[dired
-unix.rs] (see _fattrs~tolist~_).
+unix.rs] (see function _fattrs~tolist~_).
 2.  Lisp
 1.  Clojure
 1.  Concurrent recursive "grep" using _Clojure.core.async_ Go-style
