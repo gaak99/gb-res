@@ -33,12 +33,12 @@ I +ported+ re-wrote several low level directory/file functions from C to Rust.
 
 I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 
-I used some functional style Rust features/libraries here in [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][dired unix.rs]].
+I used some functional style Rust features here in [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][dired unix.rs]] (see /fattrs_to_list/).
 **** Lisp
 ***** Clojure
 ****** Concurrent recursive "grep" using /Clojure.core.async/ Go-style channels [[https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152][github]]
 ***** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
-Pretty good use of the [[https://github.com/magnars/dash.el][dash]] uber modern/functional Lisp list library.
+I used the [[https://github.com/magnars/dash.el][dash]] uber modern/functional Lisp list library.
 ** Operating Systems
 *** Unix
 **** Ubuntu Linux
