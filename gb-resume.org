@@ -57,7 +57,7 @@ This cloud optimized derivative of OpenSolaris has some unique features for clou
 **** see Seagate [[#seagate][below]]
 *** Dropbox API
 **** /oxly/ side project [[https://github.com/gaak99/oxly][github]]
-*** FaunaDb[fn:2] API
+*** FaunaDB[fn:2] Service API
 **** /ATL100/ side project [[https://github.com/gaak99/atl100][github]]
 **** /hylisp/ side project [[https://github.com/gaak99/faunadb-hylisp][github]]
 *** Openstack Swift object storage API
@@ -73,19 +73,24 @@ read-only snapshots several times a day.
    :CUSTOM_ID: seagate
    :END:
 I was one of the first engineers hired to this project that started as a skunkworks within Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate for the new Cloud Storage division.
+
+It was run like a startup using Agile methodology and JIRA/Confluence/Stash(git) was used for all the projects.
 *** Software engineer, Cloud Storage R&D Group.
 **** Major project
 ***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) of long-term object storage
 The service was based on Openstack Swift[fn:3] object storage open source project.
 
-Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and a second one in Oklahoma City).
+Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and later added a second one in Oklahoma City).
+
+All cluster inter-node messaging was RESTful and gave me a good (sometimes intense) experience debugging these type services including down to the Python /WSGI/ module.
+
+A teammate wrote a user/customer DB that the other services accessed using SQLAlchemy.
 
 Swift is many thousands of lines of Python 2 and is heavily object oriented.
 And the code tends to be of high quality as it has many eyes of Python experts for code review.
 ****** I "owned" Swift S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
-****** Basic web services  w/Python Flask - passwd reset, etc.
-****** Agile methodology and JIRA/Confluence/Stash was used for all the projects
+****** Basic web services with Python Flask - password reset, etc.
 ** Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
    :PROPERTIES:
    :CUSTOM_ID: mmtix
@@ -107,7 +112,7 @@ Refined initial design with an emphasis on next generation SPARC systems.
 ***** Kerberos KDC server db replication  (C development)
 I led team and co-designed/developed RPC-based DB
 replication protocol/feature for the Kerberos KDC.
-***** Solaris kernel RPC GSS modules server performance improvements  (C development)
+***** Solaris kernel RPC GSS modules server performance improvements (C development)
 ***** Solaris single sign-on via GSS/Kerberos (C development)
 ** Oct 1996 - Oct 2001, Sun Microsystems.
 *** Software engineer, Solaris Sustaining OS/Net Name Services.
@@ -118,7 +123,7 @@ replication protocol/feature for the Kerberos KDC.
    :END:
 Unix System Administrator.
 * Education
-June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
+June 1981 - 1987, Georgia Tech, BS in Information and Computer Science.
 * Footnotes
 [fn:1] [[https://en.wikipedia.org/wiki/Rust_(programming_language)][Wikipedia]]
 #+BEGIN_QUOTE
