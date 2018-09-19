@@ -10,5 +10,5 @@ Plain text (.txt), /org-mode/ (.org), and html are in this repo.
 
 The org file is the "master" version and the [[http://pydoit.org/][doit(1)]] (dodo.py) script converts it to html and txt versions.
 
-The script then runs /git(1)/ add/commit/push and is immediately avail for viewing at [[https://gaak99.github.io/resume][github.io]].
+The script then runs /git(1)/ add/commit/push and is +immediately+ eventually avail for viewing at [[https://gaak99.github.io/resume][github.io]].
 
