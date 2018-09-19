@@ -76,7 +76,7 @@ I was one of the first engineers hired to this project that started as a skunkwo
 
 It was run like a startup using Agile methodology and JIRA/Confluence/Stash(git server).
 *** Software engineer, Cloud Storage R&D Group.
-**** Major project
+**** The product
 ***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) of long-term object storage
 The service was based on Openstack Swift[fn:3] object storage open source project.
 
@@ -88,6 +88,8 @@ Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and later a
 All cluster inter-node messaging was RESTful and gave me a good (sometimes intense) experience debugging these type services including down to the Python /WSGI/ module.
 
 A teammate wrote a custom user/customer DB that the other services accessed using SQLAlchemy.
+
+My projects:
 ****** I "owned" Swift AWS S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication perf improvements
 ****** Basic web services with Python Flask - password reset, etc.
