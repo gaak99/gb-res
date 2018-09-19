@@ -36,7 +36,7 @@ More experience
 ^^^^^^^^^^^^^^^
 
 1.  Python
-1.  _oxly_ auto-merges Dropbox file revisions with a _git_-like cli
+1.  _oxly_ auto-merges Dropbox file revisions with a _git_-like CLI
 https://github.com/gaak99/oxly[github]
 +
 The side project that I put the most time into and use on a regular
@@ -45,8 +45,8 @@ basis.
 It uses the basic Python object oriented features and some advanced
 Python features such as decorators. I wrote the _~dbxauth~_ decorator in
 https://github.com/gaak99/oxly/blob/master/oxly/core.py[oxly/core.py]
-and the excellent _Click_ CLI argument processing library/API used here
-is heavily based on them (see
+and used the excellent _Click_ CLI argument processing library and its
+API is heavily based on decorators (see
 https://github.com/gaak99/oxly/blob/master/oxly/scripts/clickit.p[oxly/scripts/clickit.py]).
 2.  see also Seagate link:#seagate[below]
 2.  C
