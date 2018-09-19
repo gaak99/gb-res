@@ -13,13 +13,13 @@ Seeking a software development position in Atlanta (or remote) utilizing my skil
 ** Languages
 *** More experience
 **** Python
-***** /oxly/ auto-merges Dropbox file revisions with a /git/-like cli [[https://github.com/gaak99/oxly][github]]
+***** /oxly/ auto-merges Dropbox file revisions with a /git/-like CLI [[https://github.com/gaak99/oxly][github]]
 The side project that I put the most time into and use on a regular basis.
 
 It uses the basic Python object oriented features and some advanced Python features such as decorators.
-I wrote the /_dbxauth/ decorator in [[https://github.com/gaak99/oxly/blob/master/oxly/core.py][oxly/core.py]] and the excellent
-/Click/ CLI argument processing library/API used here is heavily based
-on them (see [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/clickit.p][oxly/scripts/clickit.py]]).
+I wrote the /_dbxauth/ decorator in [[https://github.com/gaak99/oxly/blob/master/oxly/core.py][oxly/core.py]] and used the excellent
+/Click/ CLI argument processing library and its API is heavily based
+on decorators (see [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/clickit.p][oxly/scripts/clickit.py]]).
 ***** see also Seagate [[#seagate][below]]
 **** C
 ***** see Sun Microsystems [[#sunmicro][below]]
