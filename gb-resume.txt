@@ -126,8 +126,8 @@ Dropbox API
 
 1.  _oxly_ side project https://github.com/gaak99/oxly[github]
 
-FaunaDb[multiblock footnote omitted] API
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FaunaDB[multiblock footnote omitted] Service API
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1.  _ATL100_ side project https://github.com/gaak99/atl100[github]
 2.  _hylisp_ side project
@@ -158,6 +158,9 @@ skunkworks within Evault – a wholly-owned subsidiary of Seagate – and
 last half of my tenure there we were brought into Seagate for the new
 Cloud Storage division.
 
+It was run like a startup using Agile methodology and
+JIRA/Confluence/Stash(git) was used for all the projects.
+
 Software engineer, Cloud Storage R&D Group.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -169,16 +172,21 @@ The service was based on Openstack Swift[multiblock footnote omitted]
 object storage open source project.
 +
 Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and
-a second one in Oklahoma City).
+later added a second one in Oklahoma City).
++
+All cluster inter-node messaging was RESTful and gave me a good
+(sometimes intense) experience debugging these type services including
+down to the Python _WSGI_ module.
++
+A teammate wrote a user/customer DB that the other services accessed
+using SQLAlchemy.
 +
 Swift is many thousands of lines of Python 2 and is heavily object
 oriented. And the code tends to be of high quality as it has many eyes
 of Python experts for code review.
 1.  I "owned" Swift S3 emulation module aka fixed many bugs
 2.  Data center to data center object replication perf improvements
-3.  Basic web services w/Python Flask - passwd reset, etc.
-4.  Agile methodology and JIRA/Confluence/Stash was used for all the
-projects
+3.  Basic web services with Python Flask - password reset, etc.
 
 Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -232,4 +240,4 @@ Unix System Administrator.
 Education
 ---------
 
-June 1981 - 1987, Georgia Tech, BS in Info and Computer Science.
+June 1981 - 1987, Georgia Tech, BS in Information and Computer Science.
