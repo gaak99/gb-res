@@ -164,7 +164,7 @@ JIRA/Confluence/Stash(git server).
 Software engineer, Cloud Storage R&D Group.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.  Major project
+1.  The product
 1.  LTS2.evault.com - cheaper and faster retrieval (vs AWS Glacier) of
 long-term object storage
 +
@@ -184,6 +184,8 @@ down to the Python _WSGI_ module.
 +
 A teammate wrote a custom user/customer DB that the other services
 accessed using SQLAlchemy.
++
+My projects:
 1.  I "owned" Swift AWS S3 emulation module aka fixed many bugs
 2.  Data center to data center object replication perf improvements
 3.  Basic web services with Python Flask - password reset, etc.
