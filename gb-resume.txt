@@ -159,7 +159,7 @@ last half of my tenure there we were brought into Seagate for the new
 Cloud Storage division.
 
 It was run like a startup using Agile methodology and
-JIRA/Confluence/Stash(git) was used for all the projects.
+JIRA/Confluence/Stash(git server).
 
 Software engineer, Cloud Storage R&D Group.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -171,6 +171,10 @@ long-term object storage
 The service was based on Openstack Swift[multiblock footnote omitted]
 object storage open source project.
 +
+Swift is many thousands of lines of Python 2 and is heavily object
+oriented. And the code tends to be of high quality as it has many eyes
+of Python experts for code review.
++
 Swift runs on a Ubuntu cluster (we had one cluster in Salt Lake City and
 later added a second one in Oklahoma City).
 +
@@ -178,13 +182,9 @@ All cluster inter-node messaging was RESTful and gave me a good
 (sometimes intense) experience debugging these type services including
 down to the Python _WSGI_ module.
 +
-A teammate wrote a user/customer DB that the other services accessed
-using SQLAlchemy.
-+
-Swift is many thousands of lines of Python 2 and is heavily object
-oriented. And the code tends to be of high quality as it has many eyes
-of Python experts for code review.
-1.  I "owned" Swift S3 emulation module aka fixed many bugs
+A teammate wrote a custom user/customer DB that the other services
+accessed using SQLAlchemy.
+1.  I "owned" Swift AWS S3 emulation module aka fixed many bugs
 2.  Data center to data center object replication perf improvements
 3.  Basic web services with Python Flask - password reset, etc.
 
