@@ -14,7 +14,7 @@ res_html_f=res_dir + "/" + res_base_f + ".html"
 
 emacs25="/usr/local/bin/emacs"
 remacs="~/warez/remacs-final/remacs/src/remacs" # remacs much newer code base than 25.3
-emacs=emacs25 #choose wisely
+emacs=remacs #choose wisely
 emacs_opts_common="-Q --batch"
 cmd_org2html=emacs + " " + emacs_opts_common + " " + res_org_f + " --funcall org-html-export-to-html --kill"
 
