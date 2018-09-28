@@ -160,7 +160,7 @@ last half of my tenure there we were brought into Seagate for the new
 Cloud Storage division.
 
 It was run like a startup using Agile methodology and
-JIRA/Confluence/Stash(git server).
+Jira/Confluence/Stash(git server).
 
 Software engineer, Cloud Storage R&D Group.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
