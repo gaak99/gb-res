@@ -74,7 +74,7 @@ read-only snapshots several times a day.
    :END:
 I was one of the first engineers hired to this project that started as a skunkworks within Evault -- a wholly-owned subsidiary of Seagate -- and last half of my tenure there we were brought into Seagate for the new Cloud Storage division.
 
-It was run like a startup using Agile methodology and JIRA/Confluence/Stash(git server).
+It was run like a startup using Agile methodology and Jira/Confluence/Stash(git server).
 *** Software engineer, Cloud Storage R&D Group.
 **** The product
 ***** LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) of long-term object storage
