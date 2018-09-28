@@ -14,8 +14,9 @@ res_html_f=res_dir + "/" + res_base_f + ".html"
 
 emacs25="/usr/local/bin/emacs"
 remacs="~/warez/remacs-final/remacs/src/remacs" # remacs much newer code base than 25.3
+emacs=emacs25 #choose wisely
 emacs_opts_common="-Q --batch"
-cmd_org2html=remacs + " " + emacs_opts_common + " " + res_org_f + " --funcall org-html-export-to-html --kill"
+cmd_org2html=emacs + " " + emacs_opts_common + " " + res_org_f + " --funcall org-html-export-to-html --kill"
 
 git_push='git push origin master'
 
@@ -27,7 +28,7 @@ if debugmemaybe:
 
 res_txt_f=res_dir + "/" + res_base_f + ".txt"
 export_txt_el="scripts/export-txt.el"
-cmd_org2txt=remacs + " " + emacs_opts_common + " " + "--script" + " " + export_txt_el + " --kill"
+cmd_org2txt=emacs + " " + emacs_opts_common + " " + "--script" + " " + export_txt_el + " --kill"
 
 git_add_txt="git add " + res_base_f + ".txt"
 git_commit_txt="git commit -m doit_auto_update " + res_base_f + ".txt"
