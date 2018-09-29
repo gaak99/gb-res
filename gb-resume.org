@@ -89,7 +89,7 @@ A teammate wrote a custom user/customer DB that the other services accessed usin
 
 My projects:
 ****** I "owned" Swift AWS S3 emulation module aka fixed many bugs
-****** Data center to data center object replication perf improvements
+****** Data center to data center object replication performance improvements
 ****** Basic web services with Python Flask - password reset, etc.
 ** Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
    :PROPERTIES:
