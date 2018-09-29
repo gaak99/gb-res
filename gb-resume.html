@@ -3,23 +3,30 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+<!-- 2018-09-29 Sat 12:14 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Resume of Glenn T. Barry</title>
-<!-- 2018-09-28 Fri 13:16 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="GT Barry" />
+<meta name="generator" content="Org mode" />
+<meta name="author" content="GT Barry" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
   .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -46,27 +53,111 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
+  .footpara { display: inline; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -86,6 +177,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <script type="text/javascript">
@@ -93,7 +185,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -142,117 +234,127 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Description</a></li>
-<li><a href="#sec-2">2. URLs for this Resume</a>
+<li><a href="#org6ca859c">1. Description</a></li>
+<li><a href="#orgd96dc4f">2. URLs for this Resume</a>
 <ul>
-<li><a href="#sec-2-1">2.1. Web site: </a></li>
-<li><a href="#sec-2-2">2.2. Raw formats including plain text: </a></li>
+<li><a href="#org4f4e45a">2.1. Web site: </a></li>
+<li><a href="#org054f0f9">2.2. Raw formats including plain text: </a></li>
 </ul>
 </li>
-<li><a href="#sec-3">3. Contact</a>
+<li><a href="#org844561f">3. Contact</a>
 <ul>
-<li><a href="#sec-3-1">3.1. email: gaak99@gmail.com</a></li>
+<li><a href="#org6a0e36c">3.1. email: gaak99@gmail.com</a></li>
 </ul>
 </li>
-<li><a href="#sec-4">4. Computing Technologies</a>
+<li><a href="#org31d0f11">4. Computing Technologies</a>
 <ul>
-<li><a href="#sec-4-1">4.1. Github</a></li>
-<li><a href="#sec-4-2">4.2. Languages</a>
+<li><a href="#orgfc40019">4.1. Github</a></li>
+<li><a href="#orgc3b72be">4.2. Languages</a>
 <ul>
-<li><a href="#sec-4-2-1">4.2.1. More experience</a></li>
-<li><a href="#sec-4-2-2">4.2.2. Less experience</a></li>
+<li><a href="#org607991e">4.2.1. Python</a></li>
+<li><a href="#org2b43ccd">4.2.2. C</a></li>
+<li><a href="#orgd04fd04">4.2.3. Bash</a></li>
+<li><a href="#orgd9d6aa4">4.2.4. Lisp</a></li>
+<li><a href="#org78f3f2b">4.2.5. Rust</a></li>
 </ul>
 </li>
-<li><a href="#sec-4-3">4.3. Operating Systems</a>
+<li><a href="#orge9470cb">4.3. Operating Systems</a>
 <ul>
-<li><a href="#sec-4-3-1">4.3.1. Unix</a></li>
+<li><a href="#org987c0f2">4.3.1. Unix</a></li>
 </ul>
 </li>
-<li><a href="#sec-4-4">4.4. Web Frameworks</a>
+<li><a href="#org55e2baa">4.4. Web Frameworks</a>
 <ul>
-<li><a href="#sec-4-4-1">4.4.1. Flask</a></li>
-<li><a href="#sec-4-4-2">4.4.2. Django</a></li>
+<li><a href="#orge5cbc6c">4.4.1. Flask</a></li>
+<li><a href="#org51e0c57">4.4.2. Django</a></li>
 </ul>
 </li>
-<li><a href="#sec-4-5">4.5. Cloud Services</a>
+<li><a href="#orgc500875">4.5. Cloud Services</a>
 <ul>
-<li><a href="#sec-4-5-1">4.5.1. AWS S3 API</a></li>
-<li><a href="#sec-4-5-2">4.5.2. Dropbox API</a></li>
-<li><a href="#sec-4-5-3">4.5.3. FaunaDBService API</a></li>
-<li><a href="#sec-4-5-4">4.5.4. Openstack Swift object storage API</a></li>
-<li><a href="#sec-4-5-5">4.5.5. rsync.net</a></li>
+<li><a href="#orgc8c4cab">4.5.1. AWS S3 API</a></li>
+<li><a href="#orgc958643">4.5.2. Dropbox API</a></li>
+<li><a href="#orgdd5e9c5">4.5.3. FaunaDBService API</a></li>
+<li><a href="#org24c9096">4.5.4. Openstack Swift object storage API</a></li>
+<li><a href="#org8c2aebd">4.5.5. rsync.net</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#sec-5">5. Job Experience</a>
+<li><a href="#org24911f1">5. Job Experience</a>
 <ul>
 <li><a href="#seagate">5.1. June 2013 - June 2015, Seagate/Evault, San Francisco, CA.</a>
 <ul>
-<li><a href="#sec-5-1-1">5.1.1. Software engineer, Cloud Storage R&amp;D Group.</a></li>
+<li><a href="#orga5b166d">5.1.1. Software engineer, Cloud Storage R&amp;D Group.</a></li>
 </ul>
 </li>
 <li><a href="#mmtix">5.2. Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.</a>
 <ul>
-<li><a href="#sec-5-2-1">5.2.1. Contract programmer, Python/Django Web Apps.</a></li>
+<li><a href="#orgfc97545">5.2.1. Contract programmer, Python/Django Web Apps.</a></li>
 </ul>
 </li>
 <li><a href="#sunmicro">5.3. Oct 2001 - Jun 2012, Sun Microsystems (later acquired by Oracle, Inc), Menlo Park, CA.</a>
 <ul>
-<li><a href="#sec-5-3-1">5.3.1. Software engineer, Solaris OS/Net Security Technologies.</a></li>
+<li><a href="#org596c52d">5.3.1. Software engineer, Solaris OS/Net Security Technologies.</a></li>
 </ul>
 </li>
-<li><a href="#sec-5-4">5.4. Oct 1996 - Oct 2001, Sun Microsystems.</a>
+<li><a href="#org2974f63">5.4. Oct 1996 - Oct 2001, Sun Microsystems.</a>
 <ul>
-<li><a href="#sec-5-4-1">5.4.1. Software engineer, Solaris Sustaining OS/Net Name Services.</a></li>
+<li><a href="#org13063e9">5.4.1. Software engineer, Solaris Sustaining OS/Net Name Services.</a></li>
 </ul>
 </li>
 <li><a href="#emory">5.5. June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.</a></li>
 </ul>
 </li>
-<li><a href="#sec-6">6. Education</a></li>
+<li><a href="#orgfa372f9">6. Education</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> Description</h2>
+<div id="outline-container-org6ca859c" class="outline-2">
+<h2 id="org6ca859c"><span class="section-number-2">1</span> Description</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Seeking a software development position in Atlanta (or remote) utilizing my skills and job experience detailed below.
 </p>
 </div>
 </div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> URLs for this Resume</h2>
+<div id="outline-container-orgd96dc4f" class="outline-2">
+<h2 id="orgd96dc4f"><span class="section-number-2">2</span> URLs for this Resume</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Web site: <a href="https://gaak99.github.io/resume">https://gaak99.github.io/resume</a></h3>
 </div>
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Raw formats including plain text: <a href="https://github.com/gaak99/gb-res">https://github.com/gaak99/gb-res</a></h3>
+<div id="outline-container-org4f4e45a" class="outline-3">
+<h3 id="org4f4e45a"><span class="section-number-3">2.1</span> Web site: <a href="https://gaak99.github.io/resume">https://gaak99.github.io/resume</a></h3>
+</div>
+<div id="outline-container-org054f0f9" class="outline-3">
+<h3 id="org054f0f9"><span class="section-number-3">2.2</span> Raw formats including plain text: <a href="https://github.com/gaak99/gb-res">https://github.com/gaak99/gb-res</a></h3>
 </div>
 </div>
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> Contact</h2>
+<div id="outline-container-org844561f" class="outline-2">
+<h2 id="org844561f"><span class="section-number-2">3</span> Contact</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1"><span class="section-number-3">3.1</span> email: gaak99@gmail.com</h3>
+</div>
+<div id="outline-container-org6a0e36c" class="outline-3">
+<h3 id="org6a0e36c"><span class="section-number-3">3.1</span> email: gaak99@gmail.com</h3>
 </div>
 </div>
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4"><span class="section-number-2">4</span> Computing Technologies</h2>
+<div id="outline-container-org31d0f11" class="outline-2">
+<h2 id="org31d0f11"><span class="section-number-2">4</span> Computing Technologies</h2>
 <div class="outline-text-2" id="text-4">
-</div><div id="outline-container-sec-4-1" class="outline-3">
-<h3 id="sec-4-1"><span class="section-number-3">4.1</span> <a href="https://github.com/gaak99">Github</a></h3>
 </div>
-<div id="outline-container-sec-4-2" class="outline-3">
-<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Languages</h3>
+<div id="outline-container-orgfc40019" class="outline-3">
+<h3 id="orgfc40019"><span class="section-number-3">4.1</span> <a href="https://github.com/gaak99">Github</a></h3>
+</div>
+<div id="outline-container-orgc3b72be" class="outline-3">
+<h3 id="orgc3b72be"><span class="section-number-3">4.2</span> Languages</h3>
 <div class="outline-text-3" id="text-4-2">
-</div><div id="outline-container-sec-4-2-1" class="outline-4">
-<h4 id="sec-4-2-1"><span class="section-number-4">4.2.1</span> More experience</h4>
+</div>
+<div id="outline-container-org607991e" class="outline-4">
+<h4 id="org607991e"><span class="section-number-4">4.2.1</span> Python</h4>
 <div class="outline-text-4" id="text-4-2-1">
-</div><ol class="org-ol"><li><a id="sec-4-2-1-1" name="sec-4-2-1-1"></a>Python<br  /><ol class="org-ol"><li><a id="sec-4-2-1-1-1" name="sec-4-2-1-1-1"></a><i>oxly</i> auto-merges Dropbox file revisions with a <i>git</i>-like CLI <a href="https://github.com/gaak99/oxly">github</a><br  /><div class="outline-text-6" id="text-4-2-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org1618ec1"></a><i>oxly</i> auto-merges Dropbox file revisions with a <i>git</i>-like CLI <a href="https://github.com/gaak99/oxly">github</a><br />
+<div class="outline-text-5" id="text-4-2-1-1">
 <p>
 The side project that I put the most time into and use on a regular basis.
 </p>
@@ -265,18 +367,52 @@ on decorators (see <a href="https://github.com/gaak99/oxly/blob/master/oxly/scri
 </p>
 </div>
 </li>
-<li><a id="sec-4-2-1-1-2" name="sec-4-2-1-1-2"></a>see also Seagate <a href="#seagate">below</a><br  /></li></ol>
-</li>
-<li><a id="sec-4-2-1-2" name="sec-4-2-1-2"></a>C<br  /><ol class="org-ol"><li><a id="sec-4-2-1-2-1" name="sec-4-2-1-2-1"></a>see Sun Microsystems <a href="#sunmicro">below</a><br  /></li></ol>
-</li>
-<li><a id="sec-4-2-1-3" name="sec-4-2-1-3"></a>bash(1)<br  /><ol class="org-ol"><li><a id="sec-4-2-1-3-1" name="sec-4-2-1-3-1"></a><i>oxmerge</i> is a shell wrapper for the <i>oxly</i> common case <a href="https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh">github</a><br  /></li>
-<li><a id="sec-4-2-1-3-2" name="sec-4-2-1-3-2"></a>see also Emory <a href="#emory">below</a><br  /></li></ol>
-</li></ol>
+<li><a id="org424ed92"></a>see also Seagate <a href="#seagate">below</a><br /></li>
+</ol>
 </div>
-<div id="outline-container-sec-4-2-2" class="outline-4">
-<h4 id="sec-4-2-2"><span class="section-number-4">4.2.2</span> Less experience</h4>
+<div id="outline-container-org2b43ccd" class="outline-4">
+<h4 id="org2b43ccd"><span class="section-number-4">4.2.2</span> C</h4>
 <div class="outline-text-4" id="text-4-2-2">
-</div><ol class="org-ol"><li><a id="sec-4-2-2-1" name="sec-4-2-2-1"></a>Rust<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup><br  /><ol class="org-ol"><li><a id="sec-4-2-2-1-1" name="sec-4-2-2-1-1"></a>Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust <a href="https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs">github</a><br  /><div class="outline-text-6" id="text-4-2-2-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgbb88dbc"></a>see Sun Microsystems <a href="#sunmicro">below</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-orgd04fd04" class="outline-4">
+<h4 id="orgd04fd04"><span class="section-number-4">4.2.3</span> Bash</h4>
+<div class="outline-text-4" id="text-4-2-3">
+</div>
+<ol class="org-ol">
+<li><a id="org3e9831b"></a><i>oxmerge</i> is a shell wrapper for the <i>oxly</i> common case <a href="https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh">github</a><br /></li>
+<li><a id="orgf158866"></a>see also Emory <a href="#emory">below</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-orgd9d6aa4" class="outline-4">
+<h4 id="orgd9d6aa4"><span class="section-number-4">4.2.4</span> Lisp</h4>
+<div class="outline-text-4" id="text-4-2-4">
+</div>
+<ol class="org-ol">
+<li><a id="org998cfe4"></a>Clojure<br />
+<ol class="org-ol">
+<li><a id="org0300d09"></a>Concurrent recursive "grep" using <i>Clojure.core.async</i> Go-style channels <a href="https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152">github</a><br /></li>
+</ol>
+</li>
+<li><a id="org306768d"></a>Basic bloom filter implementation in Emacs Lisp <a href="https://github.com/gaak99/emacs-bloomfilter">github</a><br />
+<div class="outline-text-5" id="text-4-2-4-2">
+<p>
+I used the <a href="https://github.com/magnars/dash.el">dash</a> uber modern/functional Lisp list library.
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org78f3f2b" class="outline-4">
+<h4 id="org78f3f2b"><span class="section-number-4">4.2.5</span> Rust<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h4>
+<div class="outline-text-4" id="text-4-2-5">
+</div>
+<ol class="org-ol">
+<li><a id="orgbfd4e5c"></a>Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust <a href="https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs">github</a><br />
+<div class="outline-text-5" id="text-4-2-5-1">
 <p>
 I <del>ported</del> re-wrote several low level directory/file functions from C to Rust.
 </p>
@@ -289,102 +425,125 @@ I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 I used some functional style Rust features here in <a href="https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs">dired unix.rs</a> (see function <i>fattrs to list</i> (replace each <i>spc</i> with <i>underscore</i>)).
 </p>
 </div>
-</li></ol>
 </li>
-<li><a id="sec-4-2-2-2" name="sec-4-2-2-2"></a>Lisp<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-1" name="sec-4-2-2-2-1"></a>Clojure<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-1-1" name="sec-4-2-2-2-1-1"></a>Concurrent recursive "grep" using <i>Clojure.core.async</i> Go-style channels <a href="https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152">github</a><br  /></li></ol>
-</li>
-<li><a id="sec-4-2-2-2-2" name="sec-4-2-2-2-2"></a>Basic bloom filter implementation in Emacs Lisp <a href="https://github.com/gaak99/emacs-bloomfilter">github</a><br  /><div class="outline-text-6" id="text-4-2-2-2-2">
-<p>
-I used the <a href="https://github.com/magnars/dash.el">dash</a> uber modern/functional Lisp list library.
-</p>
-</div>
-</li></ol>
-</li></ol>
+</ol>
 </div>
 </div>
-<div id="outline-container-sec-4-3" class="outline-3">
-<h3 id="sec-4-3"><span class="section-number-3">4.3</span> Operating Systems</h3>
+<div id="outline-container-orge9470cb" class="outline-3">
+<h3 id="orge9470cb"><span class="section-number-3">4.3</span> Operating Systems</h3>
 <div class="outline-text-3" id="text-4-3">
-</div><div id="outline-container-sec-4-3-1" class="outline-4">
-<h4 id="sec-4-3-1"><span class="section-number-4">4.3.1</span> Unix</h4>
+</div>
+<div id="outline-container-org987c0f2" class="outline-4">
+<h4 id="org987c0f2"><span class="section-number-4">4.3.1</span> Unix</h4>
 <div class="outline-text-4" id="text-4-3-1">
-</div><ol class="org-ol"><li><a id="sec-4-3-1-1" name="sec-4-3-1-1"></a>Ubuntu Linux<br  /><div class="outline-text-5" id="text-4-3-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org0e3e4d2"></a>Ubuntu Linux<br />
+<div class="outline-text-5" id="text-4-3-1-1">
 <p>
 My dev laptop runs Ubuntu 16.04. See also Seagate <a href="#seagate">below</a>.
 </p>
 </div>
 </li>
-<li><a id="sec-4-3-1-2" name="sec-4-3-1-2"></a>Solaris / OpenSolaris<br  /><div class="outline-text-5" id="text-4-3-1-2">
+<li><a id="orga03a1ba"></a>Solaris / OpenSolaris<br />
+<div class="outline-text-5" id="text-4-3-1-2">
 <p>
 See Sun Microsystems <a href="#sunmicro">below</a>.
 </p>
 </div>
 </li>
-<li><a id="sec-4-3-1-3" name="sec-4-3-1-3"></a>SmartOS<br  /><div class="outline-text-5" id="text-4-3-1-3">
+<li><a id="org4396c96"></a>SmartOS<br />
+<div class="outline-text-5" id="text-4-3-1-3">
 <p>
 This cloud optimized derivative of OpenSolaris has some unique features for cloud devops such as DTrace.
 </p>
 </div>
-</li></ol>
+</li>
+</ol>
 </div>
 </div>
-<div id="outline-container-sec-4-4" class="outline-3">
-<h3 id="sec-4-4"><span class="section-number-3">4.4</span> Web Frameworks</h3>
+<div id="outline-container-org55e2baa" class="outline-3">
+<h3 id="org55e2baa"><span class="section-number-3">4.4</span> Web Frameworks</h3>
 <div class="outline-text-3" id="text-4-4">
-</div><div id="outline-container-sec-4-4-1" class="outline-4">
-<h4 id="sec-4-4-1"><span class="section-number-4">4.4.1</span> Flask</h4>
+</div>
+<div id="outline-container-orge5cbc6c" class="outline-4">
+<h4 id="orge5cbc6c"><span class="section-number-4">4.4.1</span> Flask</h4>
 <div class="outline-text-4" id="text-4-4-1">
-</div><ol class="org-ol"><li><a id="sec-4-4-1-1" name="sec-4-4-1-1"></a>see Seagate <a href="#seagate">below</a><br  /></li></ol>
 </div>
-<div id="outline-container-sec-4-4-2" class="outline-4">
-<h4 id="sec-4-4-2"><span class="section-number-4">4.4.2</span> Django</h4>
+<ol class="org-ol">
+<li><a id="orgff3f72c"></a>see Seagate <a href="#seagate">below</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-org51e0c57" class="outline-4">
+<h4 id="org51e0c57"><span class="section-number-4">4.4.2</span> Django</h4>
 <div class="outline-text-4" id="text-4-4-2">
-</div><ol class="org-ol"><li><a id="sec-4-4-2-1" name="sec-4-4-2-1"></a>see MeetMeTix <a href="#mmtix">below</a><br  /></li></ol>
+</div>
+<ol class="org-ol">
+<li><a id="org5442285"></a>see MeetMeTix <a href="#mmtix">below</a><br /></li>
+</ol>
 </div>
 </div>
-<div id="outline-container-sec-4-5" class="outline-3">
-<h3 id="sec-4-5"><span class="section-number-3">4.5</span> Cloud Services</h3>
+<div id="outline-container-orgc500875" class="outline-3">
+<h3 id="orgc500875"><span class="section-number-3">4.5</span> Cloud Services</h3>
 <div class="outline-text-3" id="text-4-5">
-</div><div id="outline-container-sec-4-5-1" class="outline-4">
-<h4 id="sec-4-5-1"><span class="section-number-4">4.5.1</span> AWS S3 API</h4>
+</div>
+<div id="outline-container-orgc8c4cab" class="outline-4">
+<h4 id="orgc8c4cab"><span class="section-number-4">4.5.1</span> AWS S3 API</h4>
 <div class="outline-text-4" id="text-4-5-1">
-</div><ol class="org-ol"><li><a id="sec-4-5-1-1" name="sec-4-5-1-1"></a>see Seagate <a href="#seagate">below</a><br  /></li></ol>
 </div>
-<div id="outline-container-sec-4-5-2" class="outline-4">
-<h4 id="sec-4-5-2"><span class="section-number-4">4.5.2</span> Dropbox API</h4>
+<ol class="org-ol">
+<li><a id="org712383b"></a>see Seagate <a href="#seagate">below</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-orgc958643" class="outline-4">
+<h4 id="orgc958643"><span class="section-number-4">4.5.2</span> Dropbox API</h4>
 <div class="outline-text-4" id="text-4-5-2">
-</div><ol class="org-ol"><li><a id="sec-4-5-2-1" name="sec-4-5-2-1"></a><i>oxly</i> side project <a href="https://github.com/gaak99/oxly">github</a><br  /></li></ol>
 </div>
-<div id="outline-container-sec-4-5-3" class="outline-4">
-<h4 id="sec-4-5-3"><span class="section-number-4">4.5.3</span> FaunaDB<sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup> Service API</h4>
+<ol class="org-ol">
+<li><a id="org991925b"></a><i>oxly</i> side project <a href="https://github.com/gaak99/oxly">github</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-orgdd5e9c5" class="outline-4">
+<h4 id="orgdd5e9c5"><span class="section-number-4">4.5.3</span> FaunaDB<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> Service API</h4>
 <div class="outline-text-4" id="text-4-5-3">
-</div><ol class="org-ol"><li><a id="sec-4-5-3-1" name="sec-4-5-3-1"></a><i>ATL100</i> side project <a href="https://github.com/gaak99/atl100">github</a><br  /></li>
-<li><a id="sec-4-5-3-2" name="sec-4-5-3-2"></a><i>hylisp</i> side project <a href="https://github.com/gaak99/faunadb-hylisp">github</a><br  /></li></ol>
 </div>
-<div id="outline-container-sec-4-5-4" class="outline-4">
-<h4 id="sec-4-5-4"><span class="section-number-4">4.5.4</span> Openstack Swift object storage API</h4>
+<ol class="org-ol">
+<li><a id="orgd941c72"></a><i>ATL100</i> side project <a href="https://github.com/gaak99/atl100">github</a><br /></li>
+<li><a id="orgf2f2d8c"></a><i>hylisp</i> side project <a href="https://github.com/gaak99/faunadb-hylisp">github</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-org24c9096" class="outline-4">
+<h4 id="org24c9096"><span class="section-number-4">4.5.4</span> Openstack Swift object storage API</h4>
 <div class="outline-text-4" id="text-4-5-4">
-</div><ol class="org-ol"><li><a id="sec-4-5-4-1" name="sec-4-5-4-1"></a>see Seagate <a href="#seagate">below</a><br  /></li></ol>
 </div>
-<div id="outline-container-sec-4-5-5" class="outline-4">
-<h4 id="sec-4-5-5"><span class="section-number-4">4.5.5</span> rsync.net</h4>
+<ol class="org-ol">
+<li><a id="orgfa19f90"></a>see Seagate <a href="#seagate">below</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-org8c2aebd" class="outline-4">
+<h4 id="org8c2aebd"><span class="section-number-4">4.5.5</span> rsync.net</h4>
 <div class="outline-text-4" id="text-4-5-5">
-</div><ol class="org-ol"><li><a id="sec-4-5-5-1" name="sec-4-5-5-1"></a>ZFS as a Service<br  /><div class="outline-text-5" id="text-4-5-5-1">
+</div>
+<ol class="org-ol">
+<li><a id="orge469aae"></a>ZFS as a Service<br />
+<div class="outline-text-5" id="text-4-5-5-1">
 <p>
 It's one of my favorite backup services as not only does it provide a
 familiar Unix file system interface (via sshfs) but also provides
 read-only snapshots several times a day.
 </p>
 </div>
-</li></ol>
+</li>
+</ol>
 </div>
 </div>
 </div>
-<div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5"><span class="section-number-2">5</span> Job Experience</h2>
+<div id="outline-container-org24911f1" class="outline-2">
+<h2 id="org24911f1"><span class="section-number-2">5</span> Job Experience</h2>
 <div class="outline-text-2" id="text-5">
-</div><div id="outline-container-seagate" class="outline-3">
-<h3 id="seagate"><a id="sec-5-1" name="sec-5-1"></a><span class="section-number-3">5.1</span> June 2013 - June 2015, Seagate/Evault, San Francisco, CA.</h3>
+</div>
+<div id="outline-container-org057de00" class="outline-3">
+<h3 id="seagate"><a id="org057de00"></a><span class="section-number-3">5.1</span> June 2013 - June 2015, Seagate/Evault, San Francisco, CA.</h3>
 <div class="outline-text-3" id="text-seagate">
 <p>
 I was one of the first engineers hired to this project that started as a skunkworks within Evault &#x2013; a wholly-owned subsidiary of Seagate &#x2013; and last half of my tenure there we were brought into Seagate for the new Cloud Storage division.
@@ -394,12 +553,17 @@ I was one of the first engineers hired to this project that started as a skunkwo
 It was run like a startup using Agile methodology and Jira/Confluence/Stash(git server).
 </p>
 </div>
-<div id="outline-container-sec-5-1-1" class="outline-4">
-<h4 id="sec-5-1-1"><span class="section-number-4">5.1.1</span> Software engineer, Cloud Storage R&amp;D Group.</h4>
+<div id="outline-container-orga5b166d" class="outline-4">
+<h4 id="orga5b166d"><span class="section-number-4">5.1.1</span> Software engineer, Cloud Storage R&amp;D Group.</h4>
 <div class="outline-text-4" id="text-5-1-1">
-</div><ol class="org-ol"><li><a id="sec-5-1-1-1" name="sec-5-1-1-1"></a>The product<br  /><ol class="org-ol"><li><a id="sec-5-1-1-1-1" name="sec-5-1-1-1-1"></a>LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) of long-term object storage<br  /><div class="outline-text-6" id="text-5-1-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org91c2159"></a>The product<br />
+<ol class="org-ol">
+<li><a id="org2c157f5"></a>LTS2.evault.com -  cheaper and faster retrieval (vs AWS Glacier) of long-term object storage<br />
+<div class="outline-text-6" id="text-5-1-1-1-1">
 <p>
-The service was based on Openstack Swift<sup><a id="fnr.3" name="fnr.3" class="footref" href="#fn.3">3</a></sup> object storage open source project.
+The service was based on Openstack Swift<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup> object storage open source project.
 </p>
 
 <p>
@@ -423,67 +587,90 @@ A teammate wrote a custom user/customer DB that the other services accessed usin
 My projects:
 </p>
 </div>
-<ol class="org-ol"><li><a id="sec-5-1-1-1-1-1" name="sec-5-1-1-1-1-1"></a>I "owned" Swift AWS S3 emulation module aka fixed many bugs<br  /></li>
-<li><a id="sec-5-1-1-1-1-2" name="sec-5-1-1-1-1-2"></a>Data center to data center object replication perf improvements<br  /></li>
-<li><a id="sec-5-1-1-1-1-3" name="sec-5-1-1-1-1-3"></a>Basic web services with Python Flask - password reset, etc.<br  /></li></ol>
-</li></ol>
-</li></ol>
+<ol class="org-ol">
+<li><a id="org2a18f95"></a>I "owned" Swift AWS S3 emulation module aka fixed many bugs<br /></li>
+<li><a id="orgadae0c6"></a>Data center to data center object replication perf improvements<br /></li>
+<li><a id="org554b59a"></a>Basic web services with Python Flask - password reset, etc.<br /></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
 </div>
 </div>
-<div id="outline-container-mmtix" class="outline-3">
-<h3 id="mmtix"><a id="sec-5-2" name="sec-5-2"></a><span class="section-number-3">5.2</span> Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.</h3>
+<div id="outline-container-orgc7ee6db" class="outline-3">
+<h3 id="mmtix"><a id="orgc7ee6db"></a><span class="section-number-3">5.2</span> Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.</h3>
 <div class="outline-text-3" id="text-mmtix">
 </div>
-<div id="outline-container-sec-5-2-1" class="outline-4">
-<h4 id="sec-5-2-1"><span class="section-number-4">5.2.1</span> Contract programmer, Python/Django Web Apps.</h4>
+<div id="outline-container-orgfc97545" class="outline-4">
+<h4 id="orgfc97545"><span class="section-number-4">5.2.1</span> Contract programmer, Python/Django Web Apps.</h4>
 <div class="outline-text-4" id="text-5-2-1">
-</div><ol class="org-ol"><li><a id="sec-5-2-1-1" name="sec-5-2-1-1"></a>Major Projects:<br  /><ol class="org-ol"><li><a id="sec-5-2-1-1-1" name="sec-5-2-1-1-1"></a>Single sign-on for the site<br  /><div class="outline-text-6" id="text-5-2-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orge1afcac"></a>Major Projects:<br />
+<ol class="org-ol">
+<li><a id="org4fbe66d"></a>Single sign-on for the site<br />
+<div class="outline-text-6" id="text-5-2-1-1-1">
 <p>
 Integrated/tested/refined Django-Social-Auth app for Facebook single sign-on feature.
 </p>
 </div>
 </li>
-<li><a id="sec-5-2-1-1-2" name="sec-5-2-1-1-2"></a>Developed (Python) from scratch a full Selenium automated test suite.<br  /></li></ol>
-</li></ol>
+<li><a id="org43b1427"></a>Developed (Python) from scratch a full Selenium automated test suite.<br /></li>
+</ol>
+</li>
+</ol>
 </div>
 </div>
-<div id="outline-container-sunmicro" class="outline-3">
-<h3 id="sunmicro"><a id="sec-5-3" name="sec-5-3"></a><span class="section-number-3">5.3</span> Oct 2001 - Jun 2012, Sun Microsystems (later acquired by Oracle, Inc), Menlo Park, CA.</h3>
+<div id="outline-container-orgd70db32" class="outline-3">
+<h3 id="sunmicro"><a id="orgd70db32"></a><span class="section-number-3">5.3</span> Oct 2001 - Jun 2012, Sun Microsystems (later acquired by Oracle, Inc), Menlo Park, CA.</h3>
 <div class="outline-text-3" id="text-sunmicro">
 </div>
-<div id="outline-container-sec-5-3-1" class="outline-4">
-<h4 id="sec-5-3-1"><span class="section-number-4">5.3.1</span> Software engineer, Solaris OS/Net Security Technologies.</h4>
+<div id="outline-container-org596c52d" class="outline-4">
+<h4 id="org596c52d"><span class="section-number-4">5.3.1</span> Software engineer, Solaris OS/Net Security Technologies.</h4>
 <div class="outline-text-4" id="text-5-3-1">
-</div><ol class="org-ol"><li><a id="sec-5-3-1-1" name="sec-5-3-1-1"></a>Last few projects:<br  /><ol class="org-ol"><li><a id="sec-5-3-1-1-1" name="sec-5-3-1-1-1"></a>Solaris secure boot feature<br  /><div class="outline-text-6" id="text-5-3-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgc501529"></a>Last few projects:<br />
+<ol class="org-ol">
+<li><a id="org648b768"></a>Solaris secure boot feature<br />
+<div class="outline-text-6" id="text-5-3-1-1-1">
 <p>
 Refined initial design with an emphasis on next generation SPARC systems.
 </p>
 </div>
 </li>
-<li><a id="sec-5-3-1-1-2" name="sec-5-3-1-1-2"></a>Diagnosability improvements of Solaris Secure NFS/SMB (C development)<br  /></li>
-<li><a id="sec-5-3-1-1-3" name="sec-5-3-1-1-3"></a>Kerberos KDC server db replication  (C development)<br  /><div class="outline-text-6" id="text-5-3-1-1-3">
+<li><a id="orgfa609e1"></a>Diagnosability improvements of Solaris Secure NFS/SMB (C development)<br /></li>
+<li><a id="org65b286f"></a>Kerberos KDC server db replication  (C development)<br />
+<div class="outline-text-6" id="text-5-3-1-1-3">
 <p>
 I led team and co-designed/developed RPC-based DB
 replication protocol/feature for the Kerberos KDC.
 </p>
 </div>
 </li>
-<li><a id="sec-5-3-1-1-4" name="sec-5-3-1-1-4"></a>Solaris kernel RPC GSS modules server performance improvements (C development)<br  /></li>
-<li><a id="sec-5-3-1-1-5" name="sec-5-3-1-1-5"></a>Solaris single sign-on via GSS/Kerberos (C development)<br  /></li></ol>
-</li></ol>
+<li><a id="orgaf3b4a9"></a>Solaris kernel RPC GSS modules server performance improvements (C development)<br /></li>
+<li><a id="org8ae4db7"></a>Solaris single sign-on via GSS/Kerberos (C development)<br /></li>
+</ol>
+</li>
+</ol>
 </div>
 </div>
-<div id="outline-container-sec-5-4" class="outline-3">
-<h3 id="sec-5-4"><span class="section-number-3">5.4</span> Oct 1996 - Oct 2001, Sun Microsystems.</h3>
+<div id="outline-container-org2974f63" class="outline-3">
+<h3 id="org2974f63"><span class="section-number-3">5.4</span> Oct 1996 - Oct 2001, Sun Microsystems.</h3>
 <div class="outline-text-3" id="text-5-4">
-</div><div id="outline-container-sec-5-4-1" class="outline-4">
-<h4 id="sec-5-4-1"><span class="section-number-4">5.4.1</span> Software engineer, Solaris Sustaining OS/Net Name Services.</h4>
+</div>
+<div id="outline-container-org13063e9" class="outline-4">
+<h4 id="org13063e9"><span class="section-number-4">5.4.1</span> Software engineer, Solaris Sustaining OS/Net Name Services.</h4>
 <div class="outline-text-4" id="text-5-4-1">
-</div><ol class="org-ol"><li><a id="sec-5-4-1-1" name="sec-5-4-1-1"></a>Diagnosed/coded/tested fixes (C language) for escalated bugs.<br  /></li></ol>
+</div>
+<ol class="org-ol">
+<li><a id="orgcfca914"></a>Diagnosed/coded/tested fixes (C language) for escalated bugs.<br /></li>
+</ol>
 </div>
 </div>
-<div id="outline-container-emory" class="outline-3">
-<h3 id="emory"><a id="sec-5-5" name="sec-5-5"></a><span class="section-number-3">5.5</span> June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.</h3>
+<div id="outline-container-org2b23082" class="outline-3">
+<h3 id="emory"><a id="org2b23082"></a><span class="section-number-3">5.5</span> June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.</h3>
 <div class="outline-text-3" id="text-emory">
 <p>
 Unix System Administrator.
@@ -491,8 +678,8 @@ Unix System Administrator.
 </div>
 </div>
 </div>
-<div id="outline-container-sec-6" class="outline-2">
-<h2 id="sec-6"><span class="section-number-2">6</span> Education</h2>
+<div id="outline-container-orgfa372f9" class="outline-2">
+<h2 id="orgfa372f9"><span class="section-number-2">6</span> Education</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 June 1981 - 1987, Georgia Tech, BS in Information and Computer Science.
@@ -503,7 +690,7 @@ June 1981 - 1987, Georgia Tech, BS in Information and Computer Science.
 <h2 class="footnotes">Footnotes: </h2>
 <div id="text-footnotes">
 
-<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
 <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Wikipedia</a>
 </p>
 <blockquote>
@@ -514,9 +701,9 @@ functional and imperative-procedural paradigms. Rust is syntactically
 similar to C++[according to whom?], but its designers intend it to
 provide better memory safety while still maintaining performance.
 </p>
-</blockquote></div>
+</blockquote></div></div>
 
-<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
 <a href="https://www.infoq.com/news/2017/03/faunadb">Infoq</a>
 </p>
 <blockquote>
@@ -528,9 +715,9 @@ relational, but not SQL. Instead, it's queried via type-safe embedded
 DSLs, like LINQ. FaunaDB is a return to the general database purpose
 model, but built for the cloud instead of the mainframes of the 80s.
 </p>
-</blockquote></div>
+</blockquote></div></div>
 
-<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
 <a href="https://wiki.openstack.org/wiki/Swift">Openstack Wiki</a>
 </p>
 <blockquote>
@@ -541,15 +728,14 @@ a simple API. It's built for scale and optimized for durability,
 availability, and concurrency across the entire data set. Swift is
 ideal for storing unstructured data that can grow without bound.
 </p>
-</blockquote></div>
+</blockquote></div></div>
 
 
 </div>
 </div></div>
 <div id="postamble" class="status">
 <p class="author">Author: GT Barry</p>
-<p class="date">Created: 2018-09-28 Fri 13:16</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="date">Created: 2018-09-29 Sat 12:14</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

@@ -11,34 +11,32 @@ Seeking a software development position in Atlanta (or remote) utilizing my skil
 * Computing Technologies
 ** [[https://github.com/gaak99][Github]]
 ** Languages
-*** More experience
-**** Python
-***** /oxly/ auto-merges Dropbox file revisions with a /git/-like CLI [[https://github.com/gaak99/oxly][github]]
+*** Python
+**** /oxly/ auto-merges Dropbox file revisions with a /git/-like CLI [[https://github.com/gaak99/oxly][github]]
 The side project that I put the most time into and use on a regular basis.
 
 It uses the basic Python object oriented features and some advanced Python features such as decorators.
 I wrote the /_dbxauth/ decorator in [[https://github.com/gaak99/oxly/blob/master/oxly/core.py][oxly/core.py]] and used the excellent
 /Click/ CLI argument processing library and its API is heavily based
 on decorators (see [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/clickit.p][oxly/scripts/clickit.py]]).
-***** see also Seagate [[#seagate][below]]
-**** C
-***** see Sun Microsystems [[#sunmicro][below]]
-**** bash(1)
-***** /oxmerge/ is a shell wrapper for the /oxly/ common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
-***** see also Emory [[#emory][below]]
-*** Less experience
-**** Rust[fn:1]
-***** Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][github]]
+**** see also Seagate [[#seagate][below]]
+*** C
+**** see Sun Microsystems [[#sunmicro][below]]
+*** Bash
+**** /oxmerge/ is a shell wrapper for the /oxly/ common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
+**** see also Emory [[#emory][below]]
+*** Lisp
+**** Clojure
+***** Concurrent recursive "grep" using /Clojure.core.async/ Go-style channels [[https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152][github]]
+**** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
+I used the [[https://github.com/magnars/dash.el][dash]] uber modern/functional Lisp list library.
+*** Rust[fn:1]
+**** Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][github]]
 I +ported+ re-wrote several low level directory/file functions from C to Rust.
 
 I contributed 98% (as of Aug '18) of the code in the dired Rust files.
 
 I used some functional style Rust features here in [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][dired unix.rs]] (see function /fattrs to list/ (replace each /spc/ with /underscore/)).
-**** Lisp
-***** Clojure
-****** Concurrent recursive "grep" using /Clojure.core.async/ Go-style channels [[https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152][github]]
-***** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
-I used the [[https://github.com/magnars/dash.el][dash]] uber modern/functional Lisp list library.
 ** Operating Systems
 *** Unix
 **** Ubuntu Linux
