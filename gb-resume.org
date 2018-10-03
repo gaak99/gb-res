@@ -121,7 +121,7 @@ replication protocol/feature for the Kerberos KDC.
    :PROPERTIES:
    :CUSTOM_ID: emory
    :END:
-Unix System Administrator.
+Unix Systems Administrator.
 * Education
 June 1981 - 1987, Georgia Tech, BS in Information and Computer Science.
 * Footnotes
