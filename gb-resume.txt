@@ -246,7 +246,7 @@ Software engineer, Solaris Sustaining OS/Net Name Services.
 June 1987 - Sep 1996, Emory University MathCS Dept, Atlanta GA.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Unix System Administrator.
+Unix Systems Administrator.
 
 Education
 ---------
