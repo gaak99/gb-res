@@ -23,6 +23,7 @@ on decorators (see [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/cli
 *** C
 **** see Sun Microsystems [[#sunmicro][below]]
 *** Bash
+**** /autogen.sh/ fix for Remacs project [[https://github.com/Wilfred/remacs/pull/882/files/3230c19a5ff410d8c496753b616127ee5a225a09][github pull request]]
 **** /oxmerge/ is a shell wrapper for the /oxly/ common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
 **** see also Emory [[#emory][below]]
 *** Lisp
