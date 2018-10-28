@@ -11,21 +11,21 @@ Seeking a software development position in Atlanta (or remote) utilizing my skil
 * Computing Technologies
 ** [[https://github.com/gaak99][Github]]
 ** Languages
-*** Python
-**** /oxly/ auto-merges Dropbox file revisions with a /git/-like CLI [[https://github.com/gaak99/oxly][github]]
-The side project that I put the most time into and use on a regular basis.
-**** see also Seagate [[#seagate][below]]
-*** C
-**** see Sun Microsystems [[#sunmicro][below]]
 *** Bash
 **** /autogen.sh/ fix for Remacs project [[https://github.com/Wilfred/remacs/pull/882/files/3230c19a5ff410d8c496753b616127ee5a225a09][github pull request]]
 **** /oxmerge/ is a shell wrapper for the /oxly/ common case [[https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh][github]]
 **** see also Emory [[#emory][below]]
+*** C
+**** see Sun Microsystems [[#sunmicro][below]]
 *** Lisp
 **** Clojure
 ***** Concurrent recursive "grep" using /Clojure.core.async/ Go-style channels [[https://gist.github.com/gaak99/94305797fe5c81e6f20bd2095ec23152][github]]
 **** Basic bloom filter implementation in Emacs Lisp [[https://github.com/gaak99/emacs-bloomfilter][github]]
 I used the [[https://github.com/magnars/dash.el][dash]] uber modern/functional Lisp list library.
+*** Python
+**** /oxly/ auto-merges Dropbox file revisions with a /git/-like CLI [[https://github.com/gaak99/oxly][github]]
+The side project that I put the most time into and use on a regular basis.
+**** see also Seagate [[#seagate][below]]
 *** Rust[fn:1]
 **** Remacs open source project - "oxidize" (port) C layer of GNU Emacs to Rust [[https://github.com/Wilfred/remacs/blob/master/rust_src/src/dired_unix.rs][github]]
 I +ported+ re-wrote several low level directory/file functions from C to Rust.
