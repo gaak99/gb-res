@@ -32,25 +32,6 @@ https://github.com/gaak99[Github]
 Languages
 ~~~~~~~~~
 
-Python
-^^^^^^
-
-1.  _oxly_ auto-merges Dropbox file revisions with a _git_-like CLI
-https://github.com/gaak99/oxly[github]
-+
-The side project that I put the most time into and use on a regular
-basis.
-+
-It uses the basic Python object oriented features and some advanced
-Python features such as decorators. See the _~dbxauth~_ decorator in
-https://github.com/gaak99/oxly/blob/master/oxly/core.py[oxly/core.py]
-2.  see also Seagate link:#seagate[below]
-
-C
-^
-
-1.  see Sun Microsystems link:#sunmicro[below]
-
 Bash
 ^^^^
 
@@ -60,6 +41,11 @@ pull request]
 2.  _oxmerge_ is a shell wrapper for the _oxly_ common case
 https://github.com/gaak99/oxly/blob/master/oxly/scripts/oxmerge.sh[github]
 3.  see also Emory link:#emory[below]
+
+C
+^
+
+1.  see Sun Microsystems link:#sunmicro[below]
 
 Lisp
 ^^^^
@@ -73,6 +59,16 @@ https://github.com/gaak99/emacs-bloomfilter[github]
 +
 I used the https://github.com/magnars/dash.el[dash] uber
 modern/functional Lisp list library.
+
+Python
+^^^^^^
+
+1.  _oxly_ auto-merges Dropbox file revisions with a _git_-like CLI
+https://github.com/gaak99/oxly[github]
++
+The side project that I put the most time into and use on a regular
+basis.
+2.  see also Seagate link:#seagate[below]
 
 Rust[multiblock footnote omitted]
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
