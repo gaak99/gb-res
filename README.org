@@ -4,11 +4,11 @@
 * [[https://gaak99.github.io/resume][Web site]]
 * Formats in this repo
 
-Plain text (.txt), /org-mode/ (.org), and html are in this repo.
+Plain text (.txt), /org-mode/ (.org), html, and pdf are in this repo.
 
 * How the formats are converted
 
-The org file is the "master" version and the [[http://pydoit.org/][doit(1)]] (dodo.py) script converts it to html and txt versions.
+The org file is the "master" version and the [[http://pydoit.org/][doit(1)]] (dodo.py) script converts it to html, pdf, and txt versions.
 
 The script then runs /git(1)/ add/commit/push and is +immediately+ eventually avail for viewing at [[https://gaak99.github.io/resume][github.io]].
 

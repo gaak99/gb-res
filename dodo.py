@@ -20,12 +20,14 @@ cmd_org2html=emacs + " " + emacs_opts_common + " " + res_org_f + " --funcall org
 
 git_push='git push origin master'
 
+## org to html setup
 git_add_html="git add " + res_base_f + ".html" + ' ' + res_base_f + '.org'
 git_commit_html="git commit -m doit_auto_update " + res_base_f + ".html" + ' ' + res_base_f + '.org'
 full_cmd_org2html=cmd_org2html + " && " + git_add_html + " && " + git_commit_html  + '&&' + git_push
 if debugmemaybe:
     print("gbdebug_full_org2html: %s" % full_cmd_org2html)
 
+## org to ascii text setup    
 res_txt_f=res_dir + "/" + res_base_f + ".txt"
 export_txt_el="scripts/export-txt.el"
 cmd_org2txt=emacs + " " + emacs_opts_common + " " + "--script" + " " + export_txt_el + " --kill"
@@ -36,10 +38,29 @@ full_cmd_org2txt=cmd_org2txt + " && " + git_add_txt + " && " + git_commit_txt + 
 if debugmemaybe:
     print("gbdebug_full_org2txt: %s" % full_cmd_org2txt)
 
+## html to pdf setup    
+res_pdf_f=res_dir + "/" + res_base_f + ".pdf"
+#export_pdf_el="scripts/export-latex-pdf.el"
+pdfconvert="python3 -m weasyprint"
+cmd_html2pdf=pdfconvert + " " + res_html_f + " " + res_pdf_f
+
+git_add_pdf="git add " + res_base_f + ".pdf"
+git_commit_pdf="git commit -m doit_auto_update " + res_base_f + ".pdf"
+full_cmd_html2pdf=cmd_html2pdf + " && " + git_add_pdf + " && " + git_commit_pdf + '&&' + git_push
+if debugmemaybe:
+    print("gbdebug_full_html2pdf: %s" % full_cmd_html2pdf)
+    
 def task_res_org2html():
     return {'actions': [full_cmd_org2html],
             'file_dep': [res_org_f],
             'targets': [res_html_f]
+            }
+
+def task_res_html2pdf():
+    return {'actions': [full_cmd_html2pdf],
+            #'file_dep': [res_org_f],
+            'file_dep': [res_html_f],
+            'targets': [res_pdf_f]
             }
 
 def task_res_org2txt():
