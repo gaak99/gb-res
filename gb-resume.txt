@@ -209,9 +209,9 @@ sign-on feature.
 2.  Developed (Python) from scratch a full Selenium automated test
 suite.
 
-Oct 2001 - Jun 2012, Sun Microsystems (later acquired by Oracle, Inc),
+Oct 2001 - Jun 2012, Sun Microsystems (acquired by Oracle in 2010),
 Menlo Park, CA.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Software engineer, Solaris OS/Net Security Technologies.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
