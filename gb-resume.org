@@ -86,7 +86,8 @@ A teammate wrote a custom user/customer DB that the other services accessed usin
 My projects:
 ****** I "owned" Swift AWS S3 emulation module aka fixed many bugs
 ****** Data center to data center object replication performance improvements
-****** Basic web services with Python Flask - password reset, etc.
+****** Basic web site features (password reset, etc) with Python/Django
+****** Internal microservice APIs with Python/Flask
 ** Sep 2012 - Jan 2013, MeetMeTix.com, Atlanta, GA.
    :PROPERTIES:
    :CUSTOM_ID: mmtix
